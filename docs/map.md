@@ -6,7 +6,9 @@
 
 - **Wind layer**: colours show wind speed, from blue (calm) through green, yellow, orange and red to purple and black (35 knots and more). Wind barbs show direction and speed in knots. The layer is opaque.
 - **Colour bar** with the numbers inside it.
-- **Temperature map**: choose **Temp** on the toggle in the speed chart and the colours show the 2 m air temperature from −20 °C (black) through purple, blue, cyan, green, yellow and orange to red and light grey at 40 °C and above (the `nipy_spectral` scale), with its own colour bar in °C. The wind barbs stay. Only ECMWF-IFS has temperature: where a HARMONIE tile lies over an ECMWF-IFS tile, the colours come from ECMWF-IFS and the barbs from HARMONIE; a HARMONIE tile with no ECMWF-IFS under it shows barbs only. The grey land setting is kept as it is, so with grey land on, the temperature shows over the sea only. Choose **Speed** to go back to the wind layer.
+- **Temperature map**: choose **Temp** on the toggle in the speed chart and the colours show the 2 m air temperature from -20 °C (black) through purple, blue, cyan, green, yellow and orange to red and light grey at 40 °C and above (the `nipy_spectral` scale), with its own colour bar in °C. The wind barbs stay. Only ECMWF-IFS has temperature: where a HARMONIE tile lies over an ECMWF-IFS tile, the colours come from ECMWF-IFS and the barbs from HARMONIE; a HARMONIE tile with no ECMWF-IFS under it shows barbs only. The grey land setting is kept as it is, so with grey land on, the temperature shows over the sea only. Choose **Speed** to go back to the wind layer.
+
+![Temperature map with wind barbs](img/map-temperature.png)
 - **Coastline**: grey land with a black shoreline, drawn from a bundled vector map, so no map tiles are needed and the map works offline.
 - **Place names**: small names of larger towns; more appear as you zoom in.
 - **Station dots**: orange dots are observation stations ([Stations](stations.md)); small when zoomed out, larger when zoomed in.
