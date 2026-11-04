@@ -14,7 +14,9 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: pip install mkdocs-material
+      - run: sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra lmodern
       - run: mkdocs build
+      - run: tools/build_pdf.sh && cp WindBrowser-manual.pdf site/
       - uses: actions/upload-pages-artifact@v3
         with: {path: site}
   deploy:
