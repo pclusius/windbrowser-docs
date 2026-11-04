@@ -2,11 +2,11 @@
 
 An area you download is called a **tile**. You can have up to **nine**, numbered 1 to 9. Everything is managed from the hamburger menu.
 
-![Tile list](img/tiles.png)
+![Tile list](img/tiles.png){ width=320 }
 
 ## The tile list
 
-Each row shows the tile's number, model, state, size, number of runs and newest run. Tap a row to zoom the map to that tile.
+Each row shows the tile's number (blue badge HARMONIE, purple ECMWF-IFS), model, state, size, number of runs and newest run, for example `HARMONIE · active · 4.9 MB · 9 runs · 4 Nov 08:00`. Tap a row to zoom the map to that tile.
 
 | Button | Action |
 |---|---|

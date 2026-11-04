@@ -2,7 +2,7 @@
 
 ![Station](img/stations.png)
 
-The small dots on the map are marine observation stations. Tap one to see its **measured wind** drawn on the charts together with the forecasts, so you can see how well recent runs matched reality.
+The small orange dots on the map are marine observation stations. Tap one to see its **measured wind** drawn on the charts together with the forecasts, so you can see how well recent runs matched reality.
 
 ## Sources
 

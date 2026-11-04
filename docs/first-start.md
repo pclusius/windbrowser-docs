@@ -2,7 +2,9 @@
 
 When you open WindBrowser for the first time the map is empty. **Nothing is downloaded until you have chosen an area.**
 
-![First start](img/first-start.png)
+The menu (hamburger button, top left) holds **Add area here…** at the top:
+
+![Menu](img/menu.png){ width=320 }
 
 ## Add an area
 
@@ -12,7 +14,7 @@ When you open WindBrowser for the first time the map is empty. **Nothing is down
 4. A rectangle appears inside the current view. Drag its **top-left and bottom-right handles** to cover the sea area you want. Touches elsewhere pan the map.
 5. The dashed outline around your rectangle is the area that will really be downloaded. It is slightly larger so that points at the edge of your rectangle can still be interpolated.
 6. Check the **disk estimate** in the panel. A warning appears if the data limit would be exceeded.
-7. Confirm. The first forecast starts downloading ("Downloading the first forecast…").
+7. Confirm. The first forecast starts downloading ("Downloading the first forecast…"). When data is ready, the panel under the map says "Tap the map, or an orange station").
 
 !!! tip
     For a regatta, choose a HARMONIE area around the course and a larger ECMWF-IFS area around it. Both can be active at once.

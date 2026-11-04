@@ -1,5 +1,7 @@
 site_name: WindBrowser manual
 site_description: User manual for the WindBrowser Android app
+markdown_extensions:
+  - attr_list
 theme:
   name: material
   features:
