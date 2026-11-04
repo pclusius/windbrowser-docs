@@ -7,6 +7,7 @@ WindBrowser keeps FMI forecast runs for comparison. The version is shown in the 
 - **In the app, offline:** menu → **Manual**.
 - **Online (latest):** <https://pclusius.github.io/windbrowser-docs/>
 - **PDF:** <https://pclusius.github.io/windbrowser-docs/WindBrowser-manual.pdf>, also linked from **About WindBrowser**.
+- **PDF in Finnish (suomeksi):** <https://pclusius.github.io/windbrowser-docs/WindBrowser-manual-fi.pdf>. It is updated only after major changes, so the English manual is the most current.
 
 ## Data and credits
 

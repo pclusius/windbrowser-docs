@@ -4,6 +4,8 @@
 *This manual describes WindBrowser 0.9.63-b.*
 <!-- /version -->
 
+*Suomenkielinen ohje (PDF, Finnish manual): <https://pclusius.github.io/windbrowser-docs/WindBrowser-manual-fi.pdf>*
+
 WindBrowser is an Android app that downloads wind forecasts from the Finnish Meteorological Institute (FMI) for map areas you choose, and **keeps every forecast run** on the phone. It is meant for judging how far a forecast can be trusted, for example before a sail race or a cruise leg on the Baltic Sea.
 
 ## Why keep every run?

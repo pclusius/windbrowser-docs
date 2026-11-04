@@ -22,6 +22,14 @@
 
 > Run tools/build_pdf.sh. It needs pandoc and pdflatex, which are installed here. The result is WindBrowser-manual.pdf in the repo root, and git ignores it.
 
+### Finnish PDF
+
+> The Finnish translation is in fi/ (same file names as docs/; images are taken from docs/img). MkDocs ignores it, so it is not on the site, only a PDF.
+> It is not updated with every change. After major changes edit the fi/ pages, change the version line in fi/index.md by hand (set_version.sh does not touch it), run tools/build_pdf.sh fi and commit WindBrowser-manual-fi.pdf. The workflow only copies the committed file to the site.
+> Building needs Finnish hyphenation: sudo apt install texlive-lang-european.
+> Terms: tile and area are both "alue"; run = ennusteajo; wind barb = tuulinuoli; caption = kuvateksti; divider = jakaja; data limit = dataraja. App texts stay in English.
+> A new page needs a fi/ file and an entry in the PAGES list in tools/build_pdf.sh (shared by both languages).
+
 ### Keeping it in step with the app
 
 > The manual is a separate repo, so nothing reminds you to update it when the app changes. Once the push works, I'll add a line to the app's CLAUDE.md. It will tell me to check the manual whenever a feature or menu item changes.

@@ -1,0 +1,41 @@
+# WindBrowser
+
+<!-- version -->
+*Tämä ohje kuvaa WindBrowser-version 0.9.63-b. Suomennos päivitetään vain suurempien muutosten yhteydessä; englanninkielinen ohje on aina ajantasaisin, lisäksi automaattisen käännöksen takia tässä ohjeessa saattaa olla kielivirheitä.*
+<!-- /version -->
+
+WindBrowser on Android-sovellus, joka lataa Ilmatieteen laitoksen (FMI) tuuliennusteet valitsemillesi kartta-alueille ja **säilyttää jokaisen ennusteajon** puhelimessa. Sen avulla voi arvioida, kuinka pitkälle ennusteeseen voi luottaa, esimerkiksi ennen purjehduskilpailua tai risteilyetappia Itämerellä.
+
+## Miksi jokainen ajo säilytetään?
+
+FMI tarjoaa kustakin mallista vain viimeisimmän ajon. Kun uusi ajo korvaa vanhan, ennusteen muutosta ei enää näe. WindBrowser tallentaa jokaisen lataamansa ajon, joten voit vertailla peräkkäisiä ennusteajoja samalle paikalle ja ajankohdalle. Jos ajot ovat samoilla linjoilla, ennuste on todennäköisemmin luotettava; jos ne poikkeavat paljon toisistaan, liittyy säätilaan suurempia epävarmuuksia.
+
+Historiaa kertyy vasta siitä hetkestä, kun sovellus aloittaa lataamisen, joten lisää alueesi muutama päivä ennen kuin tarvitset sitä.
+
+## Mallit
+
+| Malli | Erottelukyky | Alueen kokoraja | Dataa neliöastetta ja ajoa kohden |
+|---|---|---|---|
+| **HARMONIE** | tarkka (noin 2,5 km) | 16 neliöastetta | noin 385 kB |
+| **ECMWF-IFS** | karkea (0,25 astetta) | 400 neliöastetta | noin 2 kB |
+
+HARMONIE kattaa Pohjois-Euroopan. ECMWF-IFS toimii kaikkialla maailmassa. Malleja voi yhdistää: ECMWF-IFS HARMONIEn alla antaa laajan yleiskuvan ja tarkkuutta siellä, missä sitä tarvitset.
+
+## Näin luet tätä ohjetta
+
+Luvut etenevät siinä järjestyksessä, jossa käytät sovellusta:
+
+1. **Ensimmäinen käynnistys**: valitse ensimmäinen alue.
+2. **Kartta**: tuulikerros ja säätimet.
+3. **Kaaviot**: napauta pistettä ja vertaile ajoja.
+4. **Alueet**: lataamiesi alueiden hallinta.
+5. **Havaintoasemat**: mitattu tuuli.
+6. **Asetukset**
+7. **Päivitykset ja vianetsintä**
+8. **Tietoja ja kiitokset**
+
+!!! note
+    Sovellus on tarkoitettu käytettäväksi merellä. Havaintoasemat ovat valikoitu joukko merellisiä asemia.
+
+!!! note
+    Sovellus ja sen kuvakaappaukset ovat vain englanniksi. Tässä ohjeessa sovelluksen omat tekstit (valikot, painikkeet, ilmoitukset) on jätetty englanniksi ja lihavoitu, jotta ne löytää näytöltä.

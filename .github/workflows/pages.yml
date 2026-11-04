@@ -17,6 +17,8 @@ jobs:
       - run: sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-recommended texlive-latex-extra lmodern
       - run: mkdocs build
       - run: tools/build_pdf.sh && cp WindBrowser-manual.pdf site/
+      # The Finnish PDF is built by hand (tools/build_pdf.sh fi) and committed.
+      - run: cp WindBrowser-manual-fi.pdf site/
       - uses: actions/upload-pages-artifact@v3
         with: {path: site}
   deploy:
