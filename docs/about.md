@@ -1,0 +1,12 @@
+# About and credits
+
+WindBrowser keeps FMI forecast runs for comparison. The version is shown in the menu under **About WindBrowser**.
+
+## Data and credits
+
+- Forecasts: **Finnish Meteorological Institute** open data (HARMONIE and ECMWF IFS).
+- Observations: FMI, SMHI, DMI, Marine Helsinki, TalTech and the Estonian Environment Agency (ilmateenistus.ee). Licences are listed in the app.
+- Coastline: OpenStreetMap contributors (land polygons) and Natural Earth.
+- Place names: GeoNames (CC BY 4.0).
+
+No account is needed. Your position, if you use the location button, is never stored or sent.

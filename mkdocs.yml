@@ -1,0 +1,23 @@
+site_name: WindBrowser manual
+site_description: User manual for the WindBrowser Android app
+theme:
+  name: material
+  features:
+    - navigation.footer
+    - navigation.sections
+    - search.highlight
+  palette:
+    - scheme: default
+      toggle: {icon: material/weather-night, name: Dark mode}
+    - scheme: slate
+      toggle: {icon: material/weather-sunny, name: Light mode}
+nav:
+  - Introduction: index.md
+  - First start: first-start.md
+  - The map: map.md
+  - Charts: charts.md
+  - Tiles: tiles.md
+  - Stations: stations.md
+  - Settings: settings.md
+  - Updates and troubleshooting: updates.md
+  - About and credits: about.md
