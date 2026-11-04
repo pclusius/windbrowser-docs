@@ -1,0 +1,9 @@
+# Variant for the copy bundled in the app: plain .html links and no network requests.
+# The app serves it from a virtual https address (WebViewAssetLoader), so the normal search works;
+# the "offline" plugin is not used because on file:// it loads a script from unpkg.com.
+INHERIT: mkdocs.yml
+use_directory_urls: false
+theme:
+  font: false
+plugins:
+  - search
