@@ -8,8 +8,8 @@
 
 - **Speed chart** (top): each run is one line. HARMONIE is blue and solid; ECMWF-IFS is purple and dashed. Older runs are paler, the newest is darkest. With only one model the legend reads "Forecast runs, old → new".
 - **Direction chart**: shown as dots, never lines, because 359 and 1 degrees are neighbours.
-- **Speed / Gust toggle**: small switch in the corner of the speed chart. Gust exists only for HARMONIE; the switch is greyed out where no run has gust.
-- **Observed wind** from a tapped station is drawn in orange.
+- **Speed / Gust / Temp toggle**: small switch in the corner of the speed chart. Gust exists only for HARMONIE and temperature (2 m air temperature, in °C) only for ECMWF-IFS; each option is greyed out where no run has it. Choosing **Temp** also turns the map's colours to temperature (see [The map](map.md)). If you tap a point that no temperature forecast covers, the chart and the map go back to speed.
+- **Observed wind** from a tapped station is drawn in orange. With **Temp** chosen it is the observed air temperature (FMI, SMHI, DMI and Marine Helsinki stations).
 
 If the runs lie close together the forecast is consistent. A wide fan means uncertainty.
 
