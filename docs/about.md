@@ -2,6 +2,12 @@
 
 WindBrowser keeps FMI forecast runs for comparison. The version is shown in the menu under **About WindBrowser**.
 
+## Where to find the manual
+
+- **In the app, offline:** menu → **Manual**.
+- **Online (latest):** <https://pclusius.github.io/windbrowser-docs/>
+- **PDF:** <https://pclusius.github.io/windbrowser-docs/WindBrowser-manual.pdf>, also linked from **About WindBrowser**.
+
 ## Data and credits
 
 - Forecasts: **Finnish Meteorological Institute** open data (HARMONIE and ECMWF IFS).

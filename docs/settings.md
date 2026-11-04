@@ -15,5 +15,6 @@ All settings are in the hamburger menu.
 | **Grey land** | Untick to show only the shoreline |
 | **UI Color theme** | Automatic, light or dark; tap to cycle |
 | **Update log…** | See [Updates](updates.md) |
-| **About WindBrowser** | Credits and version |
+| **Manual** | This manual, stored in the app, so it works without a connection |
+| **About WindBrowser** | Credits, version, and links to the online manual and the PDF |
 | **Clear all tiles** | Removes everything; always asks first |
