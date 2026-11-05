@@ -4,7 +4,8 @@
 
 - Taustatyö suoritetaan noin **tunnin välein** ja päivittää kaikki aktiiviset alueet.
 - Sovellus päivittää myös, kun tuot sen etualalle, korkeintaan 10 minuutin välein.
-- FMI säilyttää **vain viimeisimmän ajonsa**. Ajoa, joka jäi väliin puhelimen ollessa joutilaana, ei voi hakea jälkikäteen, joten avaa sovellus silloin tällöin niinä päivinä ennen kuin tarvitset sitä.
+- FMI säilyttää **vain viimeisimmän ajonsa**, ja sovellus hakee myös ARPEGEsta vain uusimman ajon. Ajoa, joka jäi väliin puhelimen ollessa joutilaana, ei voi hakea jälkikäteen, joten avaa sovellus silloin tällöin niinä päivinä ennen kuin tarvitset sitä.
+- Uuden ARPEGE-ajon lataus kestää noin kolme minuuttia, koska Météo-France lähettää sen monena pienenä pyyntönä (luku **ARPEGE ja Météo-Francen avain**).
 
 ## Päivitysloki
 
@@ -19,4 +20,5 @@ Valikko → **Update log…** listaa jokaisen työn (tunneittainen tai manuaalin
 | "No forecast at the tapped point" | Piste on kaikkien alueiden ulkopuolella. Lisää alue (ECMWF-IFS toimii kaikkialla) |
 | Ajot katosivat | Dataraja tai historiaraja karsi ne; nosta rajaa |
 | HARMONIE-alue hylättiin | Suurempi kuin 16 neliöastetta tai olemassa olevien alueiden täysin kattama |
+| ARPEGE-alue sanoo tarvitsevansa avaimen tai "key was rejected" | Syötä avain tai uusi avain, jos se vanheni tai korvattiin: luku **ARPEGE ja Météo-Francen avain** |
 | Android viivästyttää tunneittaisia päivityksiä | Androidin virransäästö; avaa sovellus käynnistääksesi päivityksen |

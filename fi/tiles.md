@@ -6,7 +6,7 @@ Lataamaasi aluetta kutsutaan sovelluksessa nimellä **tile**. Alueita voi olla e
 
 ## Aluelista
 
-Jokaisella rivillä näkyvät alueen numero (sininen merkki HARMONIE, violetti ECMWF-IFS), malli, tila, koko, ajojen määrä ja uusin ajo, esimerkiksi `HARMONIE · active · 4.9 MB · 9 runs · 4 Nov 08:00`. Napauta riviä zoomataksesi kartan kyseiselle alueelle.
+Jokaisella rivillä näkyvät alueen numero (sininen merkki HARMONIE, vihreä ARPEGE, violetti ECMWF-IFS), malli, tila, koko, ajojen määrä ja uusin ajo, esimerkiksi `HARMONIE · active · 4.9 MB · 9 runs · 4 Nov 08:00`. Napauta riviä zoomataksesi kartan kyseiselle alueelle.
 
 | Painike | Toiminto |
 |---|---|

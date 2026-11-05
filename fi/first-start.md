@@ -10,7 +10,7 @@ Valikon ("hampurilaispainike" ($\equiv$), vasemmassa yläkulmassa) ylimpänä on
 
 1. Avaa valikko kartan vasemmassa yläkulmassa olevasta **hampurilaispainikkeesta**.
 2. Valitse **Add area here…**.
-3. Valitse **malli**: HARMONIE (tarkka, pienet alueet) tai ECMWF-IFS (karkea, suuret alueet, hyvin pienet lataukset).
+3. Valitse **malli**: HARMONIE (tarkka, pienet alueet), ARPEGE (keskitarkka, Eurooppa ja Itämeri, vaatii oman ilmaisen Météo-Francen avaimen, katso luku **ARPEGE ja Météo-Francen avain**) tai ECMWF-IFS (karkea, suuret alueet, hyvin pienet lataukset).
 4. Nykyiseen näkymään ilmestyy suorakulmio. Vedä sen **vasenta yläkulmaa ja oikeaa alakulmaa** niin, että se peittää haluamasi merialueen. Muualle koskeminen siirtää karttaa.
 5. Suorakulmion ympärillä oleva katkoviivareunus on alue, joka todellisuudessa ladataan. Se on hieman suurempi, jotta suorakulmion reunalla olevia pisteitä voidaan vielä interpoloida.
 6. Tarkista paneelista **levytilaarvio** (disk estimate). Varoitus tulee, jos dataraja ylittyisi.
@@ -21,7 +21,7 @@ Valikon ("hampurilaispainike" ($\equiv$), vasemmassa yläkulmassa) ylimpänä on
 
 ## Kokorajat
 
-Alue voi olla enintään 16 neliöastetta HARMONIElla ja 400 neliöastetta ECMWF-IFS:llä. Suuremmat suorakulmiot hylätään. Katso luvusta **Alueet**, mitä tapahtuu, kun alueet menevät päällekkäin.
+Alue voi olla enintään 16 neliöastetta HARMONIElla ja 400 neliöastetta ARPEGElla tai ECMWF-IFS:llä. Suuremmat suorakulmiot hylätään. Katso luvusta **Alueet**, mitä tapahtuu, kun alueet menevät päällekkäin.
 
 ## Mitä seuraavaksi tapahtuu
 

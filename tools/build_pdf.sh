@@ -7,8 +7,7 @@
 set -e
 HERE="$(cd "$(dirname "$0")/.." && pwd)"
 PAGES="index.md first-start.md map.md charts.md tiles.md arpege.md stations.md settings.md updates.md about.md"
-# The Finnish manual has no ARPEGE page yet (it is updated only after major changes)
-PAGES_FI="index.md first-start.md map.md charts.md tiles.md stations.md settings.md updates.md about.md"
+PAGES_FI="$PAGES"
 if [ "$1" = "fi" ]; then
   cd "$HERE/fi"
   # shellcheck disable=SC2086

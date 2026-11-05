@@ -6,14 +6,14 @@
 
 - **Tuulikerros** (wind layer): värit kuvaavat tuulen nopeutta sinisestä (tyyni) vihreän, keltaisen, oranssin ja punaisen kautta violettiin ja mustaan (35 solmua ja enemmän). Tuulinuolet näyttävät suunnan ja nopeuden solmuina. Kerros on läpinäkymätön.
 - **Väriskaala** numeroineen.
-- **Lämpötilakartta** (temperature map): valitse **Temp** nopeuskaavion kulmassa olevasta kytkimestä, niin värit näyttävät 2 metrin ilmanlämpötilan -20 °C:sta (musta) violetin, sinisen, syaanin, vihreän, keltaisen ja oranssin kautta punaiseen ja vaaleanharmaaseen 40 °C:ssa ja sen yläpuolella. Tuulinuolet säilyvät aina näkyvissä jos tuulidataa on. Latausten ja datan määrän minimoimiseksi lämpötila tulee vain ECMWF-IFS:n mukana: kun HARMONIE-alue on ECMWF-IFS-alueen päällä, värit tulevat ECMWF-IFS:ltä ja tuulinuolet HARMONIElta; HARMONIE-alue, jonka alla ei ole ECMWF-IFS-aluetta, näyttää vain tuulinuolet. Harmaa maa -asetus säilyy ennallaan, joten kun harmaa maa on päällä, lämpötila näkyy vain merialueella. Valitse **Speed** palataksesi tuulikerrokseen. Lämpötila on purjehduksen kannalta lähinnä mukavuustekijä, jonka arvioiminen voidaan tehdä karkeammalla resoluutiolla ja toisaalta laajemmalla alueella koska se voi vaikuttaa reittisuunnitelmiin pidemmällä aikavälillä. 
+- **Lämpötilakartta** (temperature map): valitse **Temp** nopeuskaavion kulmassa olevasta kytkimestä, niin värit näyttävät 2 metrin ilmanlämpötilan -20 °C:sta (musta) violetin, sinisen, syaanin, vihreän, keltaisen ja oranssin kautta punaiseen ja vaaleanharmaaseen 40 °C:ssa ja sen yläpuolella. Tuulinuolet säilyvät aina näkyvissä jos tuulidataa on. Latausten ja datan määrän minimoimiseksi lämpötila on vain ARPEGEssa ja ECMWF-IFS:ssä, ei HARMONIEssa: värit tulevat ARPEGElta, missä se kattaa pisteen, ja muuten ECMWF-IFS:ltä, ja tuulinuolet ylimmältä mallilta, joten kun HARMONIE-alue on jommankumman päällä, värit tulevat sieltä ja tuulinuolet HARMONIElta; HARMONIE-alue, jonka alla ei ole mitään, näyttää vain tuulinuolet. Harmaa maa -asetus säilyy ennallaan, joten kun harmaa maa on päällä, lämpötila näkyy vain merialueella. Valitse **Speed** palataksesi tuulikerrokseen. Lämpötila on purjehduksen kannalta lähinnä mukavuustekijä, jonka arvioiminen voidaan tehdä karkeammalla resoluutiolla ja toisaalta laajemmalla alueella koska se voi vaikuttaa reittisuunnitelmiin pidemmällä aikavälillä. 
 
 ![Temperature map with wind barbs](../docs/img/map-temperature.png)
 
 - **Rantaviiva**: harmaa maa ja musta rantaviiva, piirretty mukana tulevasta vektorikartasta, joten karttalaattoja ei tarvita ja kartta toimii ilman verkkoyhteyttä.
 - **Paikannimet**: suurempien kaupunkien pienet nimet; lisää tulee näkyviin, kun lähennät.
 - **Asemapisteet**: oranssit pisteet ovat havaintoasemia (katso luku **Havaintoasemat**); pieniä loitonnettaessa, suurempia lähennettäessä.
-- **Aluerajat**: alueidesi reunat numeromerkillä. Yhtenäinen viiva tarkoittaa aktiivista, katkoviiva tauolla tai pysäytettyä aluetta. Sininen on HARMONIE, violetti ECMWF-IFS.
+- **Aluerajat**: alueidesi reunat numeromerkillä. Yhtenäinen viiva tarkoittaa aktiivista, katkoviiva tauolla tai pysäytettyä aluetta. Sininen on HARMONIE, vihreä ARPEGE, violetti ECMWF-IFS.
 
 Zoomaustaso vaihtelee välillä 5–15. Siirrä karttaa vetämällä, zoomaa nipistämällä.
 
@@ -27,7 +27,7 @@ Alue, jonka uusin ajo on yli 24 tuntia vanha, haalenee harmaaksi ja on täysin h
 
 ## Kaksi mallia yhdessä
 
-ECMWF-IFS piirretään HARMONIEn alle, joten näet tarkan mallin siellä missä se on ja karkean sen ympärillä.
+Tarkin malli piirretään päällimmäiseksi: ECMWF-IFS ARPEGEn alle ja ARPEGE HARMONIEn alle, joten näet tarkan mallin siellä missä se on ja karkeammat sen ympärillä. Nähdäksesi peittyneen kerroksen piilota sen päällä olevat napauttamalla niiden nimiä kaavioiden selitteessä (luku **Kaaviot**).
 
 ## Paikannuspainike
 
