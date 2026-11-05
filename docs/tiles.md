@@ -6,7 +6,7 @@ An area you download is called a **tile**. You can have up to **nine**, numbered
 
 ## The tile list
 
-Each row shows the tile's number (blue badge HARMONIE, purple ECMWF-IFS), model, state, size, number of runs and newest run, for example `HARMONIE · active · 4.9 MB · 9 runs · 4 Nov 08:00`. Tap a row to zoom the map to that tile.
+Each row shows the tile's number (blue badge HARMONIE, green ARPEGE, purple ECMWF-IFS), model, state, size, number of runs and newest run, for example `HARMONIE · active · 4.9 MB · 9 runs · 4 Nov 08:00`. Tap a row to zoom the map to that tile.
 
 | Button | Action |
 |---|---|

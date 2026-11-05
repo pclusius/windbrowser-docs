@@ -6,11 +6,13 @@
 #                                  the Finnish version line is edited by hand, see ohjeet.md)
 set -e
 HERE="$(cd "$(dirname "$0")/.." && pwd)"
-PAGES="index.md first-start.md map.md charts.md tiles.md stations.md settings.md updates.md about.md"
+PAGES="index.md first-start.md map.md charts.md tiles.md arpege.md stations.md settings.md updates.md about.md"
+# The Finnish manual has no ARPEGE page yet (it is updated only after major changes)
+PAGES_FI="index.md first-start.md map.md charts.md tiles.md stations.md settings.md updates.md about.md"
 if [ "$1" = "fi" ]; then
   cd "$HERE/fi"
   # shellcheck disable=SC2086
-  pandoc $PAGES \
+  pandoc $PAGES_FI \
     --from markdown+link_attributes --resource-path=. --toc --number-sections -H ../tools/pdf-header.tex \
     -V geometry:margin=2.2cm -V colorlinks=true -V lang=fi -V title="WindBrowser-ohje" \
     -o ../WindBrowser-manual-fi.pdf

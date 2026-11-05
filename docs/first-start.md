@@ -10,7 +10,7 @@ The menu (hamburger button, top left) holds **Add area here…** at the top:
 
 1. Open the menu with the **hamburger button** at the top left of the map.
 2. Pick **Add area here…**.
-3. Choose the **model**: HARMONIE (detailed, small areas) or ECMWF-IFS (coarse, large areas, very small downloads).
+3. Choose the **model**: HARMONIE (detailed, small areas), ARPEGE (medium, Europe and the Baltic, needs your own free Météo-France key, see [ARPEGE](arpege.md)) or ECMWF-IFS (coarse, large areas, very small downloads).
 4. A rectangle appears inside the current view. Drag its **top-left and bottom-right handles** to cover the sea area you want. Touches elsewhere pan the map.
 5. The dashed outline around your rectangle is the area that will really be downloaded. It is slightly larger so that points at the edge of your rectangle can still be interpolated.
 6. Check the **disk estimate** in the panel. A warning appears if the data limit would be exceeded.
@@ -21,7 +21,7 @@ The menu (hamburger button, top left) holds **Add area here…** at the top:
 
 ## Size limits
 
-An area can hold at most 16 square degrees with HARMONIE and 400 with ECMWF-IFS. Larger rectangles are refused. See [Tiles](tiles.md) for what happens when areas overlap.
+An area can hold at most 16 square degrees with HARMONIE and 400 with ARPEGE or ECMWF-IFS. Larger rectangles are refused. See [Tiles](tiles.md) for what happens when areas overlap.
 
 ## What happens next
 

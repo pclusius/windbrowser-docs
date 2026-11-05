@@ -9,6 +9,8 @@ All settings are in the hamburger menu.
 | **Update all active areas** | Starts an update now |
 | **Data limit** | 1–5 GB (default 2) |
 | **History kept** | 1–14 days of runs to keep (applied immediately) |
+| **ARPEGE key** | Your Météo-France key, needed for ARPEGE; see [ARPEGE](arpege.md) |
+| **ARPEGE forecast** | How many days ahead ARPEGE is downloaded, 1–4 (default 3), from the next run on |
 | **Export GRIB2 of active tiles to Downloads** | Copies the newest raw GRIB2 of every active tile to Downloads, with the tile number in the name (Android 10 and newer) |
 | **kn / m/s** | Speed unit, default knots. Barbs are always in knots |
 | **Wind colours**, **Wind barbs** | Tick each layer on or off |

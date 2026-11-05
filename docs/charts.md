@@ -6,9 +6,9 @@
 
 ## Reading the charts
 
-- **Speed chart** (top): each run is one line. HARMONIE is blue and solid; ECMWF-IFS is purple and dashed. Older runs are paler, the newest is darkest. With only one model the legend reads "Forecast runs, old → new".
+- **Speed chart** (top): each run is one line. HARMONIE is blue and solid; ARPEGE is green with long and short dashes; ECMWF-IFS is purple and dashed. Older runs are paler, the newest is darkest. With only one model the legend reads "Forecast runs, old → new".
 - **Direction chart**: shown as dots, never lines, because 359 and 1 degrees are neighbours.
-- **Speed / Gust / Temp toggle**: small switch in the corner of the speed chart. Gust exists only for HARMONIE and temperature (2 m air temperature, in °C) only for ECMWF-IFS; each option is greyed out where no run has it. Choosing **Temp** also turns the map's colours to temperature (see [The map](map.md)). If you tap a point that no temperature forecast covers, the chart and the map go back to speed.
+- **Speed / Gust / Temp toggle**: small switch in the corner of the speed chart. Gust exists for HARMONIE and ARPEGE and temperature (2 m air temperature, in °C) for ECMWF-IFS and ARPEGE; each option is greyed out where no run has it. Choosing **Temp** also turns the map's colours to temperature (see [The map](map.md)). If you tap a point that no temperature forecast covers, the chart and the map go back to speed.
 - **Observed wind** from a tapped station is drawn in orange. With **Temp** chosen it is the observed air temperature (FMI, SMHI, DMI and Marine Helsinki stations).
 
 If the runs lie close together the forecast is consistent. A wide fan means uncertainty.
@@ -17,7 +17,7 @@ If the runs lie close together the forecast is consistent. A wide fan means unce
 
 Touch a chart with **one finger** to move the cursor. The map follows the cursor in time. The line above each chart reads, for example:
 
-`HARMONIE: 12.2 (11.1-13.0)  ECMWF-IFS: 15.2 (11.1-15.2)  Observed: 13.2`
+`HARMONIE: 12.2 (11.1-13.0)  ARPEGE: 13.4 (12.0-14.1)  ECMWF-IFS: 15.2 (11.1-15.2)  Observed: 13.2`
 
 Before you touch the chart the models show a dash (–).
 
@@ -25,7 +25,7 @@ For each model it shows the value of the newest run covering that time, and in b
 
 ## Legend
 
-The legend shows each model with its number of runs. **Tap an entry** to hide that model's lines, dots and readout; tap again to show it.
+The legend shows each model's name in bold and in the colour of its lines, with its number of runs, and "Observed" in orange. **Tap a name** to hide that model: its lines, dots and readout leave the charts, and its **map layer, wind barbs and caption leave the map**, which is the way to see a layer that lies under another one. Tap again to show it. The names turn grey while a model is hidden. Choosing another point shows everything again.
 
 ## Zoom
 

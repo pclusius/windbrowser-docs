@@ -4,7 +4,8 @@
 
 - A background job runs about **hourly** and updates every active tile.
 - The app also updates when you bring it to the front, at most every 10 minutes.
-- FMI keeps **only its latest run**. A run missed because the phone was idle cannot be fetched later, so open the app now and then in the days before you need it.
+- FMI keeps **only its latest run**, and the app takes only the newest run of ARPEGE too. A run missed because the phone was idle cannot be fetched later, so open the app now and then in the days before you need it.
+- A new ARPEGE run takes about three minutes to download, because Météo-France sends it in many small requests ([ARPEGE](arpege.md)).
 
 ## Update log
 
@@ -19,4 +20,5 @@ Menu → **Update log…** lists each job (hourly or manual, attempt, standby bu
 | "No forecast at the tapped point" | The point is outside every tile. Add an area (ECMWF-IFS works anywhere) |
 | Runs disappeared | The data limit or history limit pruned them; raise it |
 | HARMONIE area refused | Larger than 16 square degrees, or fully covered by existing tiles |
+| An ARPEGE tile says it needs a key, or "key was rejected" | Enter a key, or a new one if it expired or was replaced: [ARPEGE](arpege.md) |
 | Android delays hourly updates | Android power saving; open the app to trigger an update |
