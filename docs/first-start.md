@@ -15,6 +15,7 @@ The menu (hamburger button, top left) holds **Add area here…** at the top:
 5. The dashed outline around your rectangle is the area that will really be downloaded. It is slightly larger so that points at the edge of your rectangle can still be interpolated.
 6. Check the **disk estimate** in the panel. A warning appears if the data limit would be exceeded.
 7. Confirm. The first forecast starts downloading ("Downloading the first forecast…"). When data is ready, the panel under the map says "Tap the map, or an orange station").
+8. The app now asks once whether it may **run without battery restrictions** ("Keep the forecasts coming?"). Allow it if you want no gaps in the forecast history; see [Updates](updates.md). You can change it later in Android's settings: App info → Battery → Unrestricted.
 
 !!! tip
     For a sail race or just a cruise leg, choose a HARMONIE area around the course and a larger ECMWF-IFS area around it. Both can be active at once.

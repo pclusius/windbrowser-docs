@@ -1,7 +1,7 @@
 # WindBrowser
 
 <!-- version -->
-*This manual describes WindBrowser 0.9.71-b.*
+*This manual describes WindBrowser 0.9.73-b.*
 <!-- /version -->
 
 *Suomenkielinen ohje (PDF, Finnish manual): <https://pclusius.github.io/windbrowser-docs/WindBrowser-manual-fi.pdf>*
