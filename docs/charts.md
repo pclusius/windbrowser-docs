@@ -35,6 +35,19 @@ The legend shows each model's name in bold and in the colour of its lines, with 
 
 The clock button with the circular arrow at the right end of the legend moves the cursor, and so the map, forward by itself: a quarter of an hour per quarter second, from the cursor (or from now) to the end of the axis in view. A touch on a chart, the button again, or "now" stops it.
 
+## Sun and moon
+
+The place in the title above the charts, the coordinates or a station's name, is underlined: **tap it** to see the sun and moon for that place.
+
+![Sun and moon](img/solunar.png){ width=320 }
+
+- The pop-up opens on the day of the chart cursor, or on today. The left and right arrows step one day at a time, and **Today** returns to today.
+- The **day strip** runs from midnight to midnight and is coloured by how far the sun is below the horizon: night, astronomical, nautical and civil twilight, and day. Red marks show sunrise and sunset, the dot is solar noon, and the bar under the strip shows when the moon is up, with its rise and set marked in red.
+- The **table** gives the length of daylight (sunrise to sunset) and of the civil, nautical and astronomical day: the time the sun is more than 6, 12 or 18 degrees below the horizon is the twilight, so the dark time of each kind is the rest of the 24 hours. Where the sun does not cross a level, as on a Baltic summer night, the table says "all day" or "never".
+- The **moon** is drawn as it looks that day (flipped in the southern hemisphere), with the phase, the share lit, its age in days, moonrise and moonset, and the next new and full moon.
+
+Everything is calculated from the position and the date, so it works without any forecast or network. The sun is accurate to about 2 minutes and the moon to about 5. The times are on the phone's clock and its UTC offset, and a "day" is the phone's calendar day.
+
 ## Units
 
 Speed is shown in knots or m/s ([Settings](settings.md)). Times show the phone's UTC offset, for example `UTC+02`.
