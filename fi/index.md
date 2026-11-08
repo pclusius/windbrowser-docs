@@ -18,7 +18,7 @@ Historiaa kertyy vasta siitä hetkestä, kun sovellus aloittaa lataamisen, joten
 |---|---|---|---|
 | **HARMONIE** | tarkka (noin 2,5 km) | 16 neliöastetta | noin 385 kB |
 | **ARPEGE** (Météo-France) | keskitarkka (0,1 astetta, noin 11 km) | 400 neliöastetta | noin 35 kB |
-| **ECMWF-IFS** | karkea (0,25 astetta) | 400 neliöastetta | noin 2 kB |
+| **ECMWF-IFS** | karkea (0,25 astetta) | 1600 neliöastetta | noin 2 kB |
 
 HARMONIE kattaa Pohjois-Euroopan. ARPEGE kattaa Euroopan ja Itämeren ja vaatii oman Météo-Francen avaimesi (luku **ARPEGE ja Météo-Francen avain**). ECMWF-IFS toimii kaikkialla maailmassa. Malleja voi yhdistää: ECMWF-IFS HARMONIEn alla antaa laajan yleiskuvan ja tarkkuutta siellä, missä sitä tarvitset, ja kolmas malli näyttää, kuinka pitkälle mallit ovat samaa mieltä.
 

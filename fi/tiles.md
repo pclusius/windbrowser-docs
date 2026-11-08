@@ -1,6 +1,6 @@
 # Alueet
 
-Lataamaasi aluetta kutsutaan sovelluksessa nimellä **tile**. Alueita voi olla enintään **yhdeksän**, numeroituina 1–9. Kaikkea hallitaan hampurilaisvalikosta.
+Lataamaasi aluetta kutsutaan sovelluksessa nimellä **tile**, numeroituina. Kaikkea hallitaan hampurilaisvalikosta.
 
 ![Tile list](../docs/img/tiles.png){ width=320 }
 

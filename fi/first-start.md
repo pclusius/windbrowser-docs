@@ -21,7 +21,7 @@ Valikon ("hampurilaispainike" ($\equiv$), vasemmassa yläkulmassa) ylimpänä on
 
 ## Kokorajat
 
-Alue voi olla enintään 16 neliöastetta HARMONIElla ja 400 neliöastetta ARPEGElla tai ECMWF-IFS:llä. Suuremmat suorakulmiot hylätään. Katso luvusta **Alueet**, mitä tapahtuu, kun alueet menevät päällekkäin.
+Alue voi olla enintään 16 neliöastetta HARMONIElla, 400 neliöastetta ARPEGElla ja 1600 neliöastetta ECMWF-IFS:llä. Suuremmat suorakulmiot hylätään. Katso luvusta **Alueet**, mitä tapahtuu, kun alueet menevät päällekkäin.
 
 ## Mitä seuraavaksi tapahtuu
 
