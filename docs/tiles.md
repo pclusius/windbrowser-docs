@@ -1,6 +1,6 @@
 # Tiles
 
-An area you download is called a **tile**. You can have up to **nine**, numbered 1 to 9. Everything is managed from the hamburger menu.
+An area you download is called a **tile**. You can have as many as you like, numbered from 1 (the data limit is what bounds them). Everything is managed from the hamburger menu.
 
 ![Tile list](img/tiles.png){ width=320 }
 

@@ -22,7 +22,7 @@ The menu (hamburger button, top left) holds **Add area here…** at the top:
 
 ## Size limits
 
-An area can hold at most 16 square degrees with HARMONIE and 400 with ARPEGE or ECMWF-IFS. Larger rectangles are refused. See [Tiles](tiles.md) for what happens when areas overlap.
+An area can hold at most 16 square degrees with HARMONIE, 400 with ARPEGE and 1600 with ECMWF-IFS. Larger rectangles are refused. See [Tiles](tiles.md) for what happens when areas overlap.
 
 ## What happens next
 

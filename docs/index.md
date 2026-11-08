@@ -1,7 +1,7 @@
 # WindBrowser
 
 <!-- version -->
-*This manual describes WindBrowser 0.9.76-b.*
+*This manual describes WindBrowser 0.9.79-b.*
 <!-- /version -->
 
 *Suomenkielinen ohje (PDF, Finnish manual): <https://pclusius.github.io/windbrowser-docs/WindBrowser-manual-fi.pdf>*
@@ -20,7 +20,7 @@ History exists only from the moment the app starts downloading, so add your area
 |---|---|---|---|
 | **HARMONIE** | fine (about 2.5 km) | 16 square degrees | about 385 kB |
 | **ARPEGE** (Météo-France) | medium (0.1 degree, about 11 km) | 400 square degrees | about 35 kB |
-| **ECMWF-IFS** | coarse (0.25 degree) | 400 square degrees | about 2 kB |
+| **ECMWF-IFS** | coarse (0.25 degree) | 1600 square degrees | about 2 kB |
 
 HARMONIE covers northern Europe. ARPEGE covers Europe and the Baltic and needs your own Météo-France key ([ARPEGE](arpege.md)). ECMWF-IFS works anywhere in the world. They can be combined: ECMWF-IFS under HARMONIE gives a wide overview with detail where you need it, and a third model shows how far the models agree.
 
