@@ -6,14 +6,14 @@ Lataamaasi aluetta kutsutaan sovelluksessa nimellä **tile**, numeroituina. Kaik
 
 ## Aluelista
 
-Jokaisella rivillä näkyvät alueen numero (sininen merkki HARMONIE, vihreä ARPEGE, violetti ECMWF-IFS), malli, tila, koko, ajojen määrä ja uusin ajo, esimerkiksi `HARMONIE · active · 4.9 MB · 9 runs · 4 Nov 08:00`. Napauta riviä zoomataksesi kartan kyseiselle alueelle.
+Jokaisella rivillä näkyvät alueen numero (sininen merkki HARMONIE, vihreä ARPEGE, violetti ECMWF-IFS), malli, tila, koko, ajojen määrä ja uusin ajo, esimerkiksi `HARMONIE · active · 4.9 MB · 9 runs · 4 Nov 08:00`. ARPEGE-alueella näkyy myös ennusteen pituus, esimerkiksi `ARPEGE 3 d · active`. Napauta riviä zoomataksesi kartan kyseiselle alueelle.
 
 | Painike | Toiminto |
 |---|---|
 | **i** | Näyttää tallennetut ajot (mallin ajoaika ja tiedostokoko) |
-| **pause / play** | Pause pysäyttää lataukset mutta säilyttää datan; play jatkaa |
+| **pause / play** | Pause pysäyttää lataukset mutta säilyttää datan; play jatkaa. Vaikuttaa heti, myös latauksen aikana |
 | **stop** | Pysäyttää lataukset; alue poistetaan, kun sen data on vanhentunut |
-| **delete** | Poistaa alueen ja sen datan. Kysyy aina vahvistuksen |
+| **delete** | Poistaa alueen ja sen datan heti, vaikka lataus olisi kesken. Kysyy aina vahvistuksen |
 
 Tilat: **Active** (aktiivinen) lataa; **Paused** (tauolla) säilyttää datan mutta ei lataa; **Stopped** (pysäytetty) poistetaan, kun sen data on vanhentunut.
 
@@ -28,6 +28,6 @@ Vain saman mallin aktiiviset alueet lasketaan.
 ## Tallennusrajat
 
 - **Data limit** (dataraja): 1–5 GB (oletus 2). Kun raja ylittyy, vanhimmat ajot poistetaan ensin, ei-aktiivisten alueiden ajot ennen aktiivisten; aktiivisen alueen uusinta ajoa ei koskaan poisteta. Valintaikkuna kertoo kerran, mitä poistettiin ja mitä voit tehdä: lyhyempi historia, pienemmät alueet tai vähemmän alueita, ECMWF-IFS tai korkeampi raja.
-- **History** (historia): 1–14 päivää.
+- **History** (historia): 1–14 päivää, säädetään liukusäätimellä kohdassa **History kept…**. Lyhentäminen poistaa vanhemmat ajot, kun suljet ikkunan.
 
 **Clear all tiles** (tyhjennä kaikki alueet) kysyy aina vahvistuksen.

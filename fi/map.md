@@ -35,4 +35,4 @@ Valikkopainikkeen alla oleva painike hakee sijaintisi (yksi paikannus; GPS, jos 
 
 ## Jakaja
 
-Kartan ja kaavioiden välissä on vedettävä kahva. Pystysuunnassa: kartta ylhäällä, kaaviot alhaalla. Vaakasuunnassa: kartta vasemmalla, kaaviot oikealla. Kumpikin suunta muistaa oman jakonsa.
+Kartan ja kaavioiden välissä on vedettävä kahva. Pystysuunnassa: kartta ylhäällä, kaaviot alhaalla. Vaakasuunnassa: kartta vasemmalla, kaaviot oikealla. Kumpikin suunta muistaa oman jakonsa. Tabletilla ja missä tahansa vähintään 840 dp:n levyisessä ikkunassa (myös avattu taittuva puhelin tai jaettu näyttö) kartta ja kaaviot ovat vierekkäin kuten vaakasuunnassa.

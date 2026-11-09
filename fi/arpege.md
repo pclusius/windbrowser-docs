@@ -24,7 +24,7 @@ Valitse **ARPEGE** (vihreä), kun lisäät alueen (luku **Ensimmäinen käynnist
 
 ## Kuinka pitkälle eteenpäin
 
-Valikko → **ARPEGE forecast: 3 days…** määrää, kuinka pitkälle eteenpäin ARPEGEa ladataan: 1–4 päivää, oletus 3. Météo-France lähettää yhden pienen tiedoston jokaista muuttujaa ja tuntia kohden, joten pidempi ennuste tarkoittaa enemmän pyyntöjä (3 päivää on noin 290) ja pidempää päivitystä. Portaali sallii 100 pyyntöä minuutissa ja sovellus jakaa pyynnöt tasaisesti, joten ajon ensimmäinen lataus kestää noin **kolme minuuttia**. Muutos tulee voimaan seuraavasta ajosta; jo tallennettu säilyy.
+Kun lisäät ARPEGE-alueen, aluemuokkaimessa on valintapainikkeet sille, kuinka pitkälle eteenpäin kyseistä aluetta ladataan: 1–4 päivää, oletus 3. Jokaisella ARPEGE-alueella on oma pituutensa, joka näkyy aluelistassa (`ARPEGE 3 d`) ja koon arviossa; muuttaaksesi sitä lisää alue uudelleen toisella pituudella. Météo-France lähettää yhden pienen tiedoston jokaista muuttujaa ja tuntia kohden, joten pidempi ennuste tarkoittaa enemmän pyyntöjä (3 päivää on noin 290) ja pidempää päivitystä. Portaali sallii 100 pyyntöä minuutissa ja sovellus jakaa pyynnöt tasaisesti, joten ajon ensimmäinen lataus kestää noin **kolme minuuttia**.
 
 ## Mitä odottaa
 

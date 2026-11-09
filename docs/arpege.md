@@ -24,7 +24,7 @@ Choose **ARPEGE** (green) when you add an area ([First start](first-start.md)). 
 
 ## How far ahead
 
-Menu → **ARPEGE forecast: 3 days…** sets how far ahead ARPEGE is downloaded: 1 to 4 days, 3 by default. Météo-France sends one small file for every variable and hour, so a longer forecast means more requests (3 days is about 290) and a longer update. The portal allows 100 requests a minute and the app spaces them out, so the first download of a run takes about **three minutes**. A change applies from the next run; what is already stored stays.
+When you add an ARPEGE area, the area editor has chips for how far ahead that tile is downloaded: 1 to 4 days, 3 by default. Each ARPEGE tile has its own length, shown in the tile list (`ARPEGE 3 d`) and used in the size estimate; to change it, add the area again with another length. Météo-France sends one small file for every variable and hour, so a longer forecast means more requests (3 days is about 290) and a longer update. The portal allows 100 requests a minute and the app spaces them out, so the first download of a run takes about **three minutes**. 
 
 ## What to expect
 

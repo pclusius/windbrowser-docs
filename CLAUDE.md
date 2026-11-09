@@ -27,5 +27,5 @@ The user manual for the WindBrowser Android app (app repo: `../nowcastRegatta`, 
 ## Conventions
 
 - Keep the manual in step with the app: when a feature, menu item or screen changes, update the matching page (and screenshot) here. App UI labels are quoted in English and bold.
-- The version stamp tracks the app build number (`0.9.<build>-b`, from the app repo's `frontend/version.properties`); don't edit it by hand in `docs/index.md`.
-- Commit messages in this repo are short English summaries (e.g. "Manual: air temperature ..., version 0.9.63-b").
+- The version stamp tracks the app build number (`1.0.<build>-beta`, from the app repo's `frontend/version.properties`); don't edit it by hand in `docs/index.md`.
+- Commit messages in this repo are short English summaries (e.g. "Manual: air temperature ..., version 1.0.125-beta").

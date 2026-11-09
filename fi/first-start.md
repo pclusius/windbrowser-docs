@@ -13,7 +13,7 @@ Valikon ("hampurilaispainike" ($\equiv$), vasemmassa yläkulmassa) ylimpänä on
 3. Valitse **malli**: HARMONIE (tarkka, pienet alueet), ARPEGE (keskitarkka, Eurooppa ja Itämeri, vaatii oman ilmaisen Météo-Francen avaimen, katso luku **ARPEGE ja Météo-Francen avain**) tai ECMWF-IFS (karkea, suuret alueet, hyvin pienet lataukset).
 4. Nykyiseen näkymään ilmestyy suorakulmio. Vedä sen **vasenta yläkulmaa ja oikeaa alakulmaa** niin, että se peittää haluamasi merialueen. Muualle koskeminen siirtää karttaa.
 5. Suorakulmion ympärillä oleva katkoviivareunus on alue, joka todellisuudessa ladataan. Se on hieman suurempi, jotta suorakulmion reunalla olevia pisteitä voidaan vielä interpoloida.
-6. Tarkista paneelista **levytilaarvio** (disk estimate). Varoitus tulee, jos dataraja ylittyisi.
+6. ARPEGE-alueella valitse valintapainikkeilla, kuinka monta päivää eteenpäin sitä ladataan (1–4, oletus 3; katso luku **ARPEGE ja Météo-Francen avain**). Tarkista paneelista **levytilaarvio** (disk estimate). Varoitus tulee, jos dataraja ylittyisi.
 7. Vahvista. Ensimmäisen ennusteen lataus alkaa ("Downloading the first forecast…"). Kun data on valmis, kartan alla olevassa paneelissa lukee "Tap the map, or an orange station" (napauta karttaa tai oranssia asemaa).
 
 !!! tip

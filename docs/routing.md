@@ -10,21 +10,21 @@ Open it from the map menu: **Routing…**.
 
 ## Boat and routing settings
 
-**Boat and routing settings…** holds everything about your boat. Nothing about a boat is built into the app: import your own polar.
+The boat and routing settings are the lower part of the **Plan a passage…** dialog, below the forecast choices. They belong to the plan: a new plan starts with the settings of the last one, and each saved plan keeps its own, so **Make again with the latest run** and saved plans use the settings they were made with. Nothing about a boat is built into the app: import your own polar.
 
-- **Polar.** **Import polar (.pol)…** reads an Expedition-style table: wind angles in rows, wind speeds in columns, boat speed in knots, separated by tabs or semicolons.
+- **Polar.** Choose the polar in the drop-down. **Import polar (.pol)…** (the last item of the drop-down) reads an Expedition-style table: wind angles in rows, wind speeds in columns, boat speed in knots, separated by tabs or semicolons. You can import several polars and pick one for each plan. **Delete** beside the drop-down removes the chosen polar from the phone after asking; plans made with it keep their results, but to make one of them again you must import the polar again.
 - **Upwind.** The boat tacks when the course is closer to the wind than the tack angle. Tick **Optimum tack angle from the polar** to use the best angle for each wind speed, or give a **Minimum tack angle**. With both, the larger is used. **Leeway when beating** (default 4°) makes the track lie further from the wind than the heading; it falls to 2° at 90°, 1° at 130° and 0° at 180°.
 - **Downwind.** The same in reverse: **Optimum downwind angle** (this assumes the boat gybes) and/or a **Maximum downwind angle**. With both, the smaller is used. A maximum like 178° means no gybing until the course is deeper than that, which is slower.
 - **Engine.** Tick **Motor when the sailing speed is low** and give the motoring speed and the sailing speed under which the engine starts. It stops again when the sailing speed is 0.5 kn above that. Without an engine the boat waits for wind.
-- **Performance.** A general speed adjustment in percent (negative is slower), and extra changes in light wind, in strong wind and at nautical night (sun more than 12° below the horizon). The adjustments multiply: they come on top of the general one.
-- **Avoid.** See *Best departure* below.
+- **Performance.** **General boat speed** as a percentage of the polar (blank is 100 %, 90 is ten percent slower), and speeds as a percentage of the polar in light wind (below a wind speed you give), in strong wind (above one) and at nautical night (sun more than 12° below the horizon). The adjustments multiply: they come on top of the general one.
+- **Avoid.** Used by *Best departure* below.
 - **When the forecast ends.** Go on with the last wind, or stop the plan there.
 
 The routing does not use gusts, only the mean wind. Where the model forecasts gusts (HARMONIE and ARPEGE, not ECMWF-IFS) they are kept with the plan and shown on the wind graph and in the summary.
 
 ## Plan a passage
 
-**Plan a passage…** asks for the route, the departure time (this phone's time) and the forecast model. The newest run of that model is used; where it has no forecast (outside your tiles, or after the end of its run) the next less detailed model fills in. The plan is worked out in steps of five minutes along the route.
+**Plan a passage…** asks for the route, the departure time (this phone's time) and the forecast model, and holds the boat and routing settings above. **Cancel** takes you back to the **Routing** dialog. The newest run of that model is used; where it has no forecast (outside your tiles, or after the end of its run) the next less detailed model fills in. The plan is worked out in steps of five minutes along the route.
 
 **Forecast run.** By default the newest stored run of the model is used. To see how an older forecast would have told it, choose one of the stored runs in the list; it is used wherever it reaches, and the newest run elsewhere. A plan opened later shows the runs it was made with; **Make again with the latest run** in its summary makes a new plan with the same route, departure and model.
 
@@ -45,7 +45,7 @@ The panel leaves the map visible and usable.
 
 ## Best departure
 
-In **Plan a passage…**, tick **Find the best departure** to try departures every 30 to 180 minutes over 12 to 72 hours from the time given. In **Boat and routing settings…** tick what you want to avoid:
+In **Plan a passage…**, tick **Find the best departure** to try departures every 30 to 180 minutes over 12 to 72 hours from the time given. In the **Avoid** part of the settings tick what you want to avoid:
 
 - **Beating in wind above** a limit (beating means a course within 60° of the wind),
 - **Wind above** a limit,

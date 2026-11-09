@@ -34,4 +34,4 @@ The button under the menu button finds your position (one fix; GPS if you allowe
 
 ## Divider
 
-Between map and charts there is a drag handle. Portrait: map above, charts below. Landscape: map on the left, charts on the right. Each orientation remembers its own split.
+Between map and charts there is a drag handle. Portrait: map above, charts below. Landscape: map on the left, charts on the right. Each orientation remembers its own split. On a tablet, or in any window at least 840 dp wide (also an unfolded foldable or a split screen), the map and the charts are side by side, as in landscape.

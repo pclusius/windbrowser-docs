@@ -1,7 +1,7 @@
 # WindBrowser
 
 <!-- version -->
-*Tämä ohje kuvaa WindBrowser-version 0.9.79-b. Suomennos päivitetään vain suurempien muutosten yhteydessä; englanninkielinen ohje on aina ajantasaisin, lisäksi automaattisen käännöksen takia tässä ohjeessa saattaa olla kielivirheitä.*
+*Tämä ohje kuvaa WindBrowser-version 1.0.125-beta. Suomennos päivitetään vain suurempien muutosten yhteydessä; englanninkielinen ohje on aina ajantasaisin, lisäksi automaattisen käännöksen takia tässä ohjeessa saattaa olla kielivirheitä.*
 <!-- /version -->
 
 WindBrowser on Android-sovellus, joka lataa Ilmatieteen laitoksen (FMI) ja, oman ilmaisen avaimesi avulla, Météo-Francen tuuliennusteet valitsemillesi kartta-alueille ja **säilyttää jokaisen ennusteajon** puhelimessa. Sen avulla voi arvioida, kuinka pitkälle ennusteeseen voi luottaa, esimerkiksi ennen purjehduskilpailua tai risteilyetappia Itämerellä.
@@ -32,9 +32,12 @@ Luvut etenevät siinä järjestyksessä, jossa käytät sovellusta:
 4. **Alueet**: lataamiesi alueiden hallinta.
 5. **ARPEGE ja Météo-Francen avain**: Météo-Francen malli ja sen avain.
 6. **Havaintoasemat**: mitattu tuuli.
-7. **Asetukset**
-8. **Päivitykset ja vianetsintä**
-9. **Tietoja ja kiitokset**
+7. **Reititys**: passage-suunnitelma omalle reitille.
+8. **Asetukset**
+9. **Päivitykset ja vianetsintä**
+10. **Tietoja ja kiitokset**
+
+WindBrowser vaatii Android 10:n tai uudemman ja toimii puhelimissa ja tableteissa.
 
 !!! note
     Sovellus on tarkoitettu käytettäväksi merellä. Havaintoasemat ovat valikoitu joukko merellisiä asemia.
