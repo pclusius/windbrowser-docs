@@ -6,8 +6,8 @@
 #                                  the Finnish version line is edited by hand, see ohjeet.md)
 set -e
 HERE="$(cd "$(dirname "$0")/.." && pwd)"
-PAGES="index.md first-start.md map.md charts.md tiles.md arpege.md stations.md settings.md updates.md about.md"
-PAGES_FI="$PAGES"
+PAGES="index.md first-start.md map.md charts.md tiles.md arpege.md routing.md stations.md settings.md updates.md about.md"
+PAGES_FI="index.md first-start.md map.md charts.md tiles.md arpege.md stations.md settings.md updates.md about.md"  # routing.md has no Finnish copy yet
 if [ "$1" = "fi" ]; then
   cd "$HERE/fi"
   # shellcheck disable=SC2086
