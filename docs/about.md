@@ -15,5 +15,6 @@ WindBrowser keeps forecast runs for comparison. The version is shown in the menu
 - Observations: FMI, SMHI, DMI, Marine Helsinki, TalTech and the Estonian Environment Agency (ilmateenistus.ee). Licences are listed in the app.
 - Coastline: OpenStreetMap contributors (land polygons) and Natural Earth.
 - Place names: GeoNames (CC BY 4.0).
+- Weather routing: the isochrone method of Y. Chen and W. Mao, "An Isochrone-Based Predictive Optimization for Efficient Ship Voyage Planning and Execution", *IEEE Transactions on Intelligent Transportation Systems* 25 (11), 18078–18092, 2024, [doi:10.1109/TITS.2024.3416349](https://doi.org/10.1109/TITS.2024.3416349), adapted for sailing boats.
 
 No account is needed. Your position, if you use the location button, is never stored or sent.
