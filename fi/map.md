@@ -29,9 +29,13 @@ Alue, jonka uusin ajo on yli 24 tuntia vanha, haalenee harmaaksi ja on täysin h
 
 Tarkin malli piirretään päällimmäiseksi: ECMWF-IFS ARPEGEn alle ja ARPEGE HARMONIEn alle, joten näet tarkan mallin siellä missä se on ja karkeammat sen ympärillä. Nähdäksesi peittyneen kerroksen piilota sen päällä olevat napauttamalla niiden nimiä kaavioiden selitteessä (luku **Kaaviot**).
 
+## Reititysnappi
+
+Valikkopainikkeen alla oleva painike (siksak-reitti, jonka kummassakin päässä on piste) avaa saman ikkunan kuin valikon **Routing…**: reittisi, tallennetut suunnitelmat ja "Plan a passage" ([Reititys](routing.md)).
+
 ## Paikannuspainike
 
-Valikkopainikkeen alla oleva painike hakee sijaintisi (yksi paikannus; GPS, jos sallit tarkan sijainnin), valitsee pisteen kuin olisit napauttanut sitä ja keskittää kartan siihen. Sijaintia ei tallenneta eikä lähetetä minnekään.
+Reititysnapin alla oleva painike hakee sijaintisi (yksi paikannus; GPS, jos sallit tarkan sijainnin), valitsee pisteen kuin olisit napauttanut sitä ja keskittää kartan siihen. Sijaintia ei tallenneta eikä lähetetä minnekään.
 
 ## Jakaja
 

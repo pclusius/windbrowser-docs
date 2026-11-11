@@ -26,4 +26,4 @@ Veneen ja reitityksen asetukset eivät ole valikossa: ne kuuluvat kuhunkin suunn
 
 ## Varmuuskopiointi
 
-Sovellus osallistuu Androidin varmuuskopiointiin, joten Google-varmuuskopiosta palautettu uusi puhelin saa takaisin asetuksesi, alueet (aluelistan), reitit, polaarit, tallennetut suunnitelmat ja reititys-painotiedoston. Ladattuja ennusteajoja ja päivitysloki eivät ole mukana; ne ladataan uudelleen, mutta historia alkaa alusta.
+Sovellus osallistuu Androidin varmuuskopiointiin, joten Google-varmuuskopiosta palautettu uusi puhelin saa takaisin asetuksesi, alueet (aluelistan), reitit, polaarit, tallennetut suunnitelmat ja reititysasetukset. Ladattuja ennusteajoja ja päivitysloki eivät ole mukana; ne ladataan uudelleen, mutta historia alkaa alusta.
