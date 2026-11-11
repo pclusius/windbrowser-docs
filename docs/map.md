@@ -28,9 +28,13 @@ A tile whose newest run is more than 24 hours old fades to grey, fully grey at 4
 
 The finest model is drawn on top: ECMWF-IFS below ARPEGE below HARMONIE, so you see the fine model where it exists and the coarser ones around it. To look at a layer that is covered, hide the ones above it by tapping their names in the chart legend ([Charts](charts.md)).
 
+## Routing button
+
+The button under the menu button (a zigzag route with a dot at each end) opens the same window as **Routing…** in the menu: your routes, saved plans and "Plan a passage" ([Routing](routing.md)).
+
 ## Location button
 
-The button under the menu button finds your position (one fix; GPS if you allowed precise location), selects that point as if you had tapped it, and centres the map there. The position is not stored or sent anywhere.
+The button under the routing button finds your position (one fix; GPS if you allowed precise location), selects that point as if you had tapped it, and centres the map there. The position is not stored or sent anywhere.
 
 ## Divider
 

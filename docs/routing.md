@@ -2,7 +2,7 @@
 
 The routing part of WindBrowser answers: *if I sail this route, leaving at this time, when do I arrive, how fast do I go, and what wind do I meet?* It does **not** look for a better route: the route is yours, from your chart plotter or Navionics, and the app sails it on the computer with the forecasts stored on the phone.
 
-Open it from the map menu: **Routing…**.
+Open it from the map menu: **Routing…**, or with the routing button under the menu button on the map.
 
 ## Import a route
 
