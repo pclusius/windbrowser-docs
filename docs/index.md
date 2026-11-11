@@ -1,7 +1,7 @@
 # WindBrowser
 
 <!-- version -->
-*This manual describes WindBrowser 1.0.147-beta.*
+*This manual describes WindBrowser 1.0.152-beta.*
 <!-- /version -->
 
 *Suomenkielinen ohje (PDF, Finnish manual): <https://pclusius.github.io/windbrowser-docs/WindBrowser-manual-fi.pdf>*
