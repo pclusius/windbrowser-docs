@@ -26,4 +26,4 @@ The boat and routing settings are not in the menu: they belong to each plan and 
 
 ## Backup
 
-The app takes part in Android's backup, so a new phone restored from your Google backup gets your settings, areas (the tile list), routes, polars, saved plans and the routing weights file back. The downloaded forecast runs and the update log are not backed up; they are fetched again, but the history starts over.
+The app takes part in Android's backup, so a new phone restored from your Google backup gets your settings, areas (the tile list), routes, polars, saved plans and routing settings back. The downloaded forecast runs and the update log are not backed up; they are fetched again, but the history starts over.

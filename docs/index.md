@@ -1,7 +1,7 @@
 # WindBrowser
 
 <!-- version -->
-*This manual describes WindBrowser 1.0.125-beta.*
+*This manual describes WindBrowser 1.0.147-beta.*
 <!-- /version -->
 
 *Suomenkielinen ohje (PDF, Finnish manual): <https://pclusius.github.io/windbrowser-docs/WindBrowser-manual-fi.pdf>*
@@ -34,7 +34,7 @@ The chapters follow the order in which you will use the app:
 4. [Tiles](tiles.md): manage your areas.
 5. [ARPEGE and the key](arpege.md): Météo-France's model and its key.
 6. [Stations](stations.md): observed wind.
-7. [Routing](routing.md): plan a passage on your own route.
+7. [Routing](routing.md): plan a passage on your own route, or let the app find the best route and departure.
 8. [Settings](settings.md)
 9. [Updates and troubleshooting](updates.md)
 10. [About and credits](about.md)

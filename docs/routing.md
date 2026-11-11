@@ -1,6 +1,6 @@
-# Routing: plan a passage on a fixed route
+# Routing: plan a passage
 
-The routing part of WindBrowser answers: *if I sail this route, leaving at this time, when do I arrive, how fast do I go, and what wind do I meet?* It does **not** look for a better route: the route is yours, from your chart plotter or Navionics, and the app sails it on the computer with the forecasts stored on the phone.
+The routing part of WindBrowser answers: *if I sail this route, leaving at this time, when do I arrive, how fast do I go, and what wind do I meet?* The route is yours, from your chart plotter or Navionics, and the app sails it on the computer with the forecasts stored on the phone. By default it follows your line exactly. If you tick **Find the best route between the route's points (weather routing)**, it looks for the fastest line (or the one that best avoids what you want to avoid) between your points, using the forecast, the polar and the tacking angles.
 
 Open it from the map menu: **Routing…**, or with the routing button under the menu button on the map.
 
@@ -8,23 +8,35 @@ Open it from the map menu: **Routing…**, or with the routing button under the 
 
 **Import route (GPX)…** reads a GPX file with a route (`rte`), a track (`trk`) or waypoints (`wpt`), up to 5 MB and 2,000 points. Navionics routes work as they are. Imported routes are listed with a checkbox (show or hide on the map), a coloured dot, and **Remove**. Tapping a route zooms the map to it.
 
+**Route points.** Tap a point of a visible route on the map to open its window: the point's number, how weather routing passes it (**Through**, **Leave to port** or **To starboard**; the first and last point are always passed through), and its latitude and longitude, which you can type. **Save** stores the change, **Delete point** removes the point after asking (this cannot be undone), **Cancel** closes the window. A point that is left to port or starboard is drawn with an arrow circling it: clockwise for a mark left to starboard, counter-clockwise for one left to port. The choice matters only to weather routing; a route sailed as drawn goes through every point.
+
 ## Boat and routing settings
 
 The boat and routing settings are the lower part of the **Plan a passage…** dialog, below the forecast choices. They belong to the plan: a new plan starts with the settings of the last one, and each saved plan keeps its own, so **Make again with the latest run** and saved plans use the settings they were made with. Nothing about a boat is built into the app: import your own polar.
 
 - **Polar.** Choose the polar in the drop-down. **Import polar (.pol)…** (the last item of the drop-down) reads an Expedition-style table: wind angles in rows, wind speeds in columns, boat speed in knots, separated by tabs or semicolons. You can import several polars and pick one for each plan. **Delete** beside the drop-down removes the chosen polar from the phone after asking; plans made with it keep their results, but to make one of them again you must import the polar again.
-- **Upwind.** The boat tacks when the course is closer to the wind than the tack angle. Tick **Optimum tack angle from the polar** to use the best angle for each wind speed, or give a **Minimum tack angle**. With both, the larger is used. **Leeway when beating** (default 4°) makes the track lie further from the wind than the heading; it falls to 2° at 90°, 1° at 130° and 0° at 180°.
-- **Downwind.** The same in reverse: **Optimum downwind angle** (this assumes the boat gybes) and/or a **Maximum downwind angle**. With both, the smaller is used. A maximum like 178° means no gybing until the course is deeper than that, which is slower.
+- **Upwind.** The boat tacks when the course is closer to the wind than the tack angle. Tick **Optimum tack angle from the polar** to use the best angle for each wind speed, or give a **Minimum tack angle**. With both, the larger is used. **Leeway when beating** (default 4°) makes the track lie further from the wind than the heading; it falls to 2° at 90°, 1° at 130° and 0° at 180°. **Progress when tacking (%)** is the share of the speed along the course that is kept while the boat tacks (default 95 %, blank is 100 %); the loss grows from nothing at the edge of the tacking angle to the full value 3° inside it.
+- **Downwind.** The same in reverse: **Optimum downwind angle** (this assumes the boat gybes) and/or a **Maximum downwind angle**. With both, the smaller is used. A maximum like 178° means no gybing until the course is deeper than that, which is slower. **Progress when gybing (%)** works like the tacking one.
 - **Engine.** Tick **Motor when the sailing speed is low** and give the motoring speed and the sailing speed under which the engine starts. It stops again when the sailing speed is 0.5 kn above that. Without an engine the boat waits for wind.
 - **Performance.** **General boat speed** as a percentage of the polar (blank is 100 %, 90 is ten percent slower), and speeds as a percentage of the polar in light wind (below a wind speed you give), in strong wind (above one) and at nautical night (sun more than 12° below the horizon). The adjustments multiply: they come on top of the general one.
-- **Avoid.** Used by *Best departure* below.
+- **Avoid** (for the best route and departure). What the weather routing and *Best departure* below try to avoid; see those sections. The underlined **Parameters** link beside the heading opens the weights and the integration step.
 - **When the forecast ends.** Go on with the last wind, or stop the plan there.
 
-The routing does not use gusts, only the mean wind. Where the model forecasts gusts (HARMONIE and ARPEGE, not ECMWF-IFS) they are kept with the plan and shown on the wind graph and in the summary.
+The routing, too, uses only the mean wind, not gusts. Where the model forecasts gusts (HARMONIE and ARPEGE, not ECMWF-IFS) they are kept with the plan and shown on the wind graph and in the summary.
 
 ## Plan a passage
 
-**Plan a passage…** asks for the route, the departure time (this phone's time) and the forecast model, and holds the boat and routing settings above. **Cancel** takes you back to the **Routing** dialog. The newest run of that model is used; where it has no forecast (outside your tiles, or after the end of its run) the next less detailed model fills in. The plan is worked out in steps of five minutes along the route.
+**Plan a passage…** asks for the route (with **Reverse route** to sail it from the last point to the first, swapping marks left to port and starboard), the weather-routing tick, the departure time (this phone's time) and the forecast model, and holds the boat and routing settings above. **Cancel** takes you back to the **Routing** dialog. The newest run of that model is used; where it has no forecast (outside your tiles, or after the end of its run) the next less detailed model fills in. The plan is worked out in steps of five minutes along the route.
+
+## Weather routing
+
+With **Find the best route between the route's points (weather routing)** ticked, the app searches for the line between each pair of your points, one leg at a time, by the isochrone method (see [About](about.md) for the reference). Your points are kept and each is passed as set for it. The cost of a line is its trip time plus, for what you ticked under **Avoid**, the hours that meet each condition times its weight, so with nothing ticked it is simply the fastest line. The search uses the forecast, the polar, the tacking and gybing angles and losses, the engine rule and the other settings of the plan.
+
+- **While it runs**, the map shows the isochrones (the fronts the search has reached) and the best partial line, and the panel under the map tells which leg and stage it is on. A search takes from a few seconds to a minute, depending on the route and the phone. **Cancel** stops it.
+- **Land.** The app has a coarse land mask (coastline from Natural Earth, lenient near the coast) and routes round it, but it knows no depths, shipping lanes or restrictions. A leg that starts or ends close to land is sailed as drawn. Always check the found line on a chart.
+- **The result** is an ordinary plan: the line is drawn on the map and everything below (summary, tables, graphs, save, compare, roadbook) works on it. The line lives in the plan. **Keep this line as a route** in the summary adds it to your routes (named "*name* (best)"). **Make again with the latest run** searches again from your route as drawn, with the same settings.
+
+The result is only as good as the forecast and the polar: a front or sharp wind shift can make a different line better than the one found.
 
 **Forecast run.** By default the newest stored run of the model is used. To see how an older forecast would have told it, choose one of the stored runs in the list; it is used wherever it reaches, and the newest run elsewhere. A plan opened later shows the runs it was made with; **Make again with the latest run** in its summary makes a new plan with the same route, departure and model.
 
@@ -40,21 +52,29 @@ The panel leaves the map visible and usable.
 ## Save, compare, roadbook
 
 - **Save** keeps the plan on the phone with its figures and the settings it was made with. Saved plans are listed in **Routing…**. They can be opened again after the forecasts they used have expired.
-- Tick two to four saved plans and choose **Compare ticked plans**: a table of their figures and their graphs on one axis, each in its own colour, with one boat per plan on the map. Use it to compare departure times or models.
+- Tick two to six saved plans: their lines appear on the map at once, each in its own colour. **Compare ticked plans (2–6)** shows a table of their figures and their graphs on one axis in the same colours, with one boat per plan on the map. Use it to compare departure times or models.
 - **Roadbook** saves a single HTML file in the Downloads folder, with the figures (polar, routing, wind, boat speed), the waypoints with times, the same leg table as the summary, the histograms and the graphs, including the gust. It opens in any browser and can be printed.
 
 ## Best departure
 
-In **Plan a passage…**, tick **Find the best departure** to try departures every 30 to 180 minutes over 12 to 72 hours from the time given. In the **Avoid** part of the settings tick what you want to avoid:
+In **Plan a passage…**, tick **Find the best departure: try departures from the time above on**, choose how long (12 to 72 hours) and how often (every 30 to 180 minutes), and **Find**. In the **Avoid** part of the settings tick what you want to avoid:
 
 - **Beating in wind above** a limit (beating means a course within 60° of the wind),
 - **Wind above** a limit,
 - **Night**.
 
-Each departure gets a score: the hours that meet each ticked condition, added together. Beating in strong wind therefore counts twice and costs more than strong wind downwind. The best departure has the lowest score; of equal ones, the shortest trip wins. The chart shows trip time and score against departure time, with the best marked; touch a point to read it, and **Open this plan** to see and save it.
+Each departure gets a score: the trip's hours plus, for each ticked condition, the hours that meet it times its weight. Beating in strong wind therefore counts twice and costs more than strong wind downwind. The best departure has the lowest score; with nothing ticked it is the shortest trip.
 
-!!! note
-    The weights of the conditions (and a weight for trip time) are all 1 (and 0) by default. They can be changed with a file `routing_weights.xml` in the app's files directory: `<weights beating="2" wind="1" night="0.5" trip="0.1"/>`.
+The result is a panel under the map, like a plan. The bars show the score of each departure, split into trip time and the ticked conditions (in the colours of the conditions); the best is marked. Touch a bar to read that departure, and **Open this plan** to see and save it. A plan opened from the panel shows on top; closing it brings the panel back.
+
+If **Find the best route** is also ticked, every departure is searched for its best route (a quicker search than a single plan's), the trip time of your route as drawn is shown as a dashed line, and a sentence says what the best route saves. The map draws the routes of the departures: the one you touch thickest, its two neighbours on each side thinner. **Open this plan** then searches that departure again in full.
+
+## Parameters
+
+The **Parameters** window (the link beside **Avoid**) holds the general settings of the search:
+
+- **Weights.** Time is the reference: an hour at sea counts as one hour. Three vertical sliders (**Beating**, **Strong wind**, **Night**) say how many hours an hour of that condition adds, from 0 to 3 in tenths; together they can add at most 6, so time always keeps a share. A bar shows the shares and sentences show what an hour of each condition counts as. **Weights to 1** resets them. A weight counts only when its box under **Avoid** is ticked for that plan or sweep. Night is not bad in itself: leave it unticked if you like sailing at night.
+- **Integration step.** The weather routing sails each stage of its search in steps of this length (blank is 10 minutes, 1 to 60). Shorter steps follow the wind more closely and take longer. Leave it blank unless you are trying out how it matters.
 
 ## What to remember
 
