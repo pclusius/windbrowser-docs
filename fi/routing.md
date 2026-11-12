@@ -2,7 +2,7 @@
 
 WindBrowserin reititysosa vastaa kysymykseen: *jos purjehdin tämän reitin ja lähden tähän aikaan, milloin saavun perille, kuinka nopeasti kuljen ja millaista tuulta kohtaan?* Reitti on sinun, plotteristasi tai Navionicsista, ja sovellus purjehtii sen laskennallisesti puhelimeen tallennetuilla ennusteilla. Oletuksena se seuraa linjaasi täsmälleen. Jos valitset **Find the best route between the route's points (weather routing)**, se etsii pisteidesi välille nopeimman linjan (tai sen, joka parhaiten välttää sen, mitä haluat välttää) ennusteen, polaarin ja kryssikulmien avulla.
 
-Avaa se kartan valikosta: **Routing…**, tai kartan valikkopainikkeen alla olevalla reititysnapilla.
+Avaa se kartan valikosta: **Routing**, tai kartan oikean yläkulman vasaranapin (työkalupainike) reititysnapilla.
 
 ## Reitin tuonti
 
@@ -51,7 +51,7 @@ Paneeli jättää kartan näkyviin ja käytettäväksi.
 
 ## Tallennus, vertailu, ajopäiväkirja
 
-- **Save** tallentaa suunnitelman puhelimeen lukuineen ja asetuksineen, joilla se tehtiin. Tallennetut suunnitelmat listataan kohdassa **Routing…**. Ne voi avata uudelleen senkin jälkeen, kun niiden käyttämät ennusteet ovat vanhentuneet.
+- **Save** tallentaa suunnitelman puhelimeen lukuineen ja asetuksineen, joilla se tehtiin. Tallennetut suunnitelmat listataan kohdassa **Routing**. Ne voi avata uudelleen senkin jälkeen, kun niiden käyttämät ennusteet ovat vanhentuneet.
 - Valitse kaksi–kuusi tallennettua suunnitelmaa: niiden linjat ilmestyvät heti kartalle, kukin omalla värillään. **Compare ticked plans (2–6)** näyttää taulukon niiden luvuista ja niiden kaaviot samalla akselilla samoilla väreillä, kartalla yksi vene kutakin suunnitelmaa kohden. Käytä sitä lähtöaikojen tai mallien vertailuun.
 - **Roadbook** tallentaa yhden HTML-tiedoston Downloads-kansioon: tunnusluvut (polaari, reititys, tuuli, veneen nopeus), reittipisteet aikoineen, sama osuustaulukko kuin yhteenvedossa, histogrammit ja kaaviot puuskineen. Se avautuu missä tahansa selaimessa ja sen voi tulostaa.
 

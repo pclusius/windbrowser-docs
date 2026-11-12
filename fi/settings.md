@@ -6,9 +6,10 @@ Kaikki asetukset ovat hampurilaisvalikossa.
 
 | Asetus | Merkitys |
 |---|---|
-| **Add area here…**, aluerivit | Katso luvut **Ensimmäinen käynnistys** ja **Alueet** |
+| **Add new forecast tile**, aluerivit | Katso luvut **Ensimmäinen käynnistys** ja **Alueet** |
 | **Update all active areas** | Käynnistää päivityksen heti |
-| **Routing…** | Reitit, passage-suunnitelmat ja tallennetut suunnitelmat; katso luku **Reititys** |
+| **Routing** | Reitit, passage-suunnitelmat ja tallennetut suunnitelmat; katso luku **Reititys** |
+| **Show the no-go zone of weather routing** | Näyttää vyöhykkeen (maa ja sen viereinen rannikko), jonka yli sääreititys ei kulje; katso luku **Reititys** |
 | **Export GRIB2 of active tiles to Downloads** | Kopioi jokaisen aktiivisen alueen uusimman raakamuotoisen GRIB2-tiedoston Downloads-kansioon alueen numero nimessä |
 | **kn / m/s** | Nopeusyksikkö, oletuksena solmut. Tuulinuolet ovat aina solmuina |
 | **Wind colours**, **Wind barbs** | Kytke kukin kerros päälle tai pois |

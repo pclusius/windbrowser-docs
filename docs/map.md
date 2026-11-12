@@ -4,7 +4,7 @@
 
 ## What you see
 
-- **Wind layer**: colours show wind speed, from blue (calm) through green, yellow, orange and red to purple and black (35 knots and more). Wind barbs show direction and speed in knots. The layer is opaque.
+- **Wind layer**: colours show wind speed, from blue (calm) through green, yellow, orange and red to purple and black (40 knots and more). Wind barbs show direction and speed in knots. The layer is opaque.
 - **Colour bar** with the numbers inside it.
 - **Temperature map**: choose **Temp** on the toggle in the speed chart and the colours show the 2 m air temperature from -20 °C (black) through purple, blue, cyan, green, yellow and orange to red and light grey at 40 °C and above (the `nipy_spectral` scale), with its own colour bar in °C. The wind barbs stay. ARPEGE and ECMWF-IFS have temperature, HARMONIE does not: the colours come from ARPEGE where it covers the point and otherwise from ECMWF-IFS, and the barbs from the topmost model, so where a HARMONIE tile lies over one of them the colours come from that one and the barbs from HARMONIE; a HARMONIE tile with nothing under it shows barbs only. The grey land setting is kept as it is, so with grey land on, the temperature shows over the sea only. Choose **Speed** to go back to the wind layer.
 
@@ -18,7 +18,7 @@ Zoom runs from level 5 to 15. Drag to pan, pinch to zoom.
 
 ## The caption
 
-The caption (shown with the (i) button at the bottom right) reads, for example, `ECMWF-IFS · Sat 7 20:00 UTC+02 · run 4 Nov 02:00 `: the model, the forecast time shown and the model run it comes from. In the temperature map it also says "2 m temperature" and, where the barbs come from another model, "wind barbs FMI-HARMONIE". For a tapped point it names the model that covers the point, and adds "also ECMWF-IFS" when a second model reaches it too. Two taps on the clock put the map and the chart cursor at the actual time.
+The caption (shown with the small (i) button in the time box at the top of the map) reads, below that box,, for example, `ECMWF-IFS · Sat 7 20:00 UTC+02 · run 4 Nov 02:00 `: the model, the forecast time shown and the model run it comes from. In the temperature map it also says "2 m temperature" and, where the barbs come from another model, "wind barbs FMI-HARMONIE". For a tapped point it names the model that covers the point, and adds "also ECMWF-IFS" when a second model reaches it too. Two taps on the time box or on the scrubber's handle put the map and the chart cursor at the actual time.
 
 ## Old data fades
 
@@ -33,22 +33,22 @@ The finest model is drawn on top: ECMWF-IFS below ARPEGE below HARMONIE, so you 
 The round hammer button at the top right of the map holds three tools. Tap it and the radar, routing and location buttons fan out round it; tap one to use it. Tap the hammer again, or anywhere else on the map, to fold them away. The menu button at the top left stays where it is.
 
 - **Rain radar**: switches the rain radar layer on and off (see below).
-- **Routing** (a zigzag route with a dot at each end): opens the same window as **Routing…** in the menu: your routes, saved plans and "Plan a passage" ([Routing](routing.md)).
+- **Routing** (a zigzag route with a dot at each end): opens the same window as **Routing** in the menu: your routes, saved plans and "Plan a passage" ([Routing](routing.md)).
 - **Location**: finds your position (one fix; GPS if you allowed precise location), selects that point as if you had tapped it, and centres the map there. The position is not stored or sent anywhere.
 
 ## Rain radar
 
-The radar button is blue while the layer is on and grey while it is off. Switching it on shows the FMI rain radar (Finland and its surroundings) for the time on the clock, and moves the time to now. While the radar is shown it replaces the wind or temperature layer and its colour bar, and the time cannot be moved past now; switch the radar off to get the forecast back. The pictures of the last 6 hours are downloaded when you switch it on (one every 15 minutes), so scrubbing the time needs no network. Colours go from blue to dark red as the rain gets heavier (0.1 mm/h and up to 5 mm/h and more); a greyer tone with a thin line marks where the radars do not reach.
+The radar button is blue while the layer is on and grey while it is off. Switching it on shows the FMI rain radar (Finland and its surroundings) for the time on the clock, and moves the time to now. While the radar is shown it replaces the wind or temperature layer and its colour bar, and the time cannot be moved past now; switch the radar off to get the forecast back. The pictures of the last 6 hours are downloaded when you switch it on (one every 15 minutes), so scrubbing the time needs no network. Colours go from blue to dark red as the rain gets heavier (0.1 mm/h and up to 5 mm/h and more); a greyer tone with a thin line marks where the radars do not reach. Where there is no rain the picture is the sea colour: pale in the light theme and mid-grey in the dark one.
 
-## The clock
+## The time box and the scrubber
 
-The bar at the bottom of the map shows the time of the map and the charts, which are always the same. The time is yellow when it is more than a minute from now.
+The time of the map and the charts, which are always the same, is shown in a faintly see-through box at the top of the map: the day and time large and the UTC offset small beside it. The box turns yellow when the time is more than a minute from now. **Double tap** it to go to now. The small (i) button inside the box shows the caption of the map (below the box); the caption hides again when you tap the map or the charts.
+
+The scrubber at the bottom of the map has an arrow button near each edge of the screen, a faint line between them and a handle in the middle. The box is at the top so that your finger does not hide the time while you scrub.
 
 - The arrow at each end runs the time forward or back by itself (a quarter of an hour every quarter second); the running arrow becomes a pause sign. Press the other arrow to turn the direction round.
-- **Double tap** the time to go to now.
-- **Press and hold** the time, then move right or left, to scrub; the bar leans a little the way you pull and springs back when you let go.
-
-The small (i) button in the bottom right corner shows the caption; it hides again when you tap the map or the charts.
+- **Pull the handle** to the right or left to change the time: it runs forward or back for as long as you hold the handle away from the middle, and faster the further you pull (up to 60 dp; the speed ranges from 20 minutes of forecast per second to four times that). The handle springs back to the middle when you let go. The buttons and the line stay where they are.
+- **Double tap** the handle to go to now.
 
 ## Divider
 

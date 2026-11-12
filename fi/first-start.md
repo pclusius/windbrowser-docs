@@ -2,14 +2,14 @@
 
 Kun avaat WindBrowserin ensimmäisen kerran, kartta on tyhjä. **Mitään ei ladata ennen kuin olet valinnut alueen.**
 
-Valikon ("hampurilaispainike" ($\equiv$), vasemmassa yläkulmassa) ylimpänä on **Add area here…** (lisää alue tähän):
+Valikon ("hampurilaispainike" ($\equiv$), vasemmassa yläkulmassa) ylimpänä on **Add new forecast tile** (lisää uusi ennusteruutu):
 
 ![Menu](../docs/img/menu.png){ width=320 }
 
 ## Alueen lisääminen
 
 1. Avaa valikko kartan vasemmassa yläkulmassa olevasta **hampurilaispainikkeesta**.
-2. Valitse **Add area here…**.
+2. Valitse **Add new forecast tile**.
 3. Valitse **malli**: HARMONIE (tarkka, pienet alueet), ARPEGE (keskitarkka, Eurooppa ja Itämeri, vaatii oman ilmaisen Météo-Francen avaimen, katso luku **ARPEGE ja Météo-Francen avain**) tai ECMWF-IFS (karkea, suuret alueet, hyvin pienet lataukset).
 4. Nykyiseen näkymään ilmestyy suorakulmio. Vedä sen **vasenta yläkulmaa ja oikeaa alakulmaa** niin, että se peittää haluamasi merialueen. Muualle koskeminen siirtää karttaa.
 5. Suorakulmion ympärillä oleva katkoviivareunus on alue, joka todellisuudessa ladataan. Se on hieman suurempi, jotta suorakulmion reunalla olevia pisteitä voidaan vielä interpoloida.

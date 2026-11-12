@@ -1,7 +1,7 @@
 # WindBrowser
 
 <!-- version -->
-*Tämä ohje kuvaa WindBrowser-version 1.0.152-beta. Suomennos päivitetään vain suurempien muutosten yhteydessä; englanninkielinen ohje on aina ajantasaisin, lisäksi automaattisen käännöksen takia tässä ohjeessa saattaa olla kielivirheitä.*
+*Tämä ohje kuvaa WindBrowser-version 1.0.176-beta. Suomennos päivitetään vain suurempien muutosten yhteydessä; englanninkielinen ohje on aina ajantasaisin, lisäksi automaattisen käännöksen takia tässä ohjeessa saattaa olla kielivirheitä.*
 <!-- /version -->
 
 WindBrowser on Android-sovellus, joka lataa Ilmatieteen laitoksen (FMI) ja, oman ilmaisen avaimesi avulla, Météo-Francen tuuliennusteet valitsemillesi kartta-alueille ja **säilyttää jokaisen ennusteajon** puhelimessa. Sen avulla voi arvioida, kuinka pitkälle ennusteeseen voi luottaa, esimerkiksi ennen purjehduskilpailua tai risteilyetappia Itämerellä.

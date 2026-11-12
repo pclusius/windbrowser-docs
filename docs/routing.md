@@ -2,7 +2,7 @@
 
 The routing part of WindBrowser answers: *if I sail this route, leaving at this time, when do I arrive, how fast do I go, and what wind do I meet?* The route is yours, from your chart plotter or Navionics, and the app sails it on the computer with the forecasts stored on the phone. By default it follows your line exactly. If you tick **Find the best route between the route's points (weather routing)**, it looks for the fastest line (or the one that best avoids what you want to avoid) between your points, using the forecast, the polar and the tacking angles.
 
-Open it from the map menu: **Routing…**, or with the routing button in the tools (hammer) button at the top right of the map.
+Open it from the map menu: **Routing**, or with the routing button in the tools (hammer) button at the top right of the map.
 
 ## Import a route
 
@@ -51,7 +51,7 @@ The panel leaves the map visible and usable.
 
 ## Save, compare, roadbook
 
-- **Save** keeps the plan on the phone with its figures and the settings it was made with. Saved plans are listed in **Routing…**. They can be opened again after the forecasts they used have expired.
+- **Save** keeps the plan on the phone with its figures and the settings it was made with. Saved plans are listed in **Routing**. They can be opened again after the forecasts they used have expired.
 - Tick two to six saved plans: their lines appear on the map at once, each in its own colour. **Compare ticked plans (2–6)** shows a table of their figures and their graphs on one axis in the same colours, with one boat per plan on the map. Use it to compare departure times or models.
 - **Roadbook** saves a single HTML file in the Downloads folder, with the figures (polar, routing, wind, boat speed), the waypoints with times, the same leg table as the summary, the histograms and the graphs, including the gust. It opens in any browser and can be printed.
 

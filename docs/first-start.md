@@ -2,14 +2,14 @@
 
 When you open WindBrowser for the first time the map is empty. **Nothing is downloaded until you have chosen an area.**
 
-The menu (hamburger button, top left) holds **Add area here…** at the top:
+The menu (hamburger button, top left) holds **Add new forecast tile** at the top:
 
 ![Menu](img/menu.png){ width=320 }
 
 ## Add an area
 
 1. Open the menu with the **hamburger button** at the top left of the map.
-2. Pick **Add area here…**.
+2. Pick **Add new forecast tile**.
 3. Choose the **model**: HARMONIE (detailed, small areas), ARPEGE (medium, Europe and the Baltic, needs your own free Météo-France key, see [ARPEGE](arpege.md)) or ECMWF-IFS (coarse, large areas, very small downloads).
 4. A rectangle appears inside the current view. Drag its **top-left and bottom-right handles** to cover the sea area you want. Touches elsewhere pan the map.
 5. The dashed outline around your rectangle is the area that will really be downloaded. It is slightly larger so that points at the edge of your rectangle can still be interpolated.

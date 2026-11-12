@@ -33,7 +33,7 @@ Selite näyttää kunkin mallin nimen lihavoituna ja viivojensa värisenä sekä
 
 ## Automaattinen eteneminen
 
-Selitteen oikeassa päässä oleva kellopainike, jossa on kiertävä nuoli, siirtää kohdistinta ja siten karttaa eteenpäin itsestään: neljännestunnin neljännessekunnissa, kohdistimesta (tai nykyhetkestä) näkyvän akselin loppuun. Kaavion kosketus, painike uudestaan tai "now" pysäyttää sen.
+Kartan alareunan säätimen päissä olevat kaksi nuolta siirtävät kohdistinta ja siten karttaa eteen- tai taaksepäin itsestään: neljännestunnin neljännessekunnissa, kohdistimesta (tai nykyhetkestä) tallennettujen ennusteiden loppuun. Säätimen kahvan vetäminen, nuoli uudestaan (käynnissä se näyttää taukomerkkiä) tai kaksi napautusta aikaruutuun pysäyttää sen ([Kartta](map.md)).
 
 ## Yksiköt
 

@@ -6,9 +6,10 @@ All settings are in the hamburger menu.
 
 | Setting | Meaning |
 |---|---|
-| **Add area here…**, tile rows | See [First start](first-start.md) and [Tiles](tiles.md) |
-| **Update all active areas** | Starts an update now |
-| **Routing…** | Routes, passage plans and saved plans; see [Routing](routing.md) |
+| **Add new forecast tile**, tile rows | See [First start](first-start.md) and [Tiles](tiles.md) |
+| **Update all active areas** | Starts an update now (shown once there is a tile) |
+| **Routing** | Routes, passage plans and saved plans; see [Routing](routing.md) |
+| **Show the no-go zone of weather routing** | Tick to draw the zone (land and the coast next to it) that weather routing will not cross; see [Routing](routing.md) |
 | **Export GRIB2 of active tiles to Downloads** | Copies the newest raw GRIB2 of every active tile to Downloads, with the tile number in the name |
 | **kn / m/s** | Speed unit, default knots. Barbs are always in knots |
 | **Wind colours**, **Wind barbs** | Tick each layer on or off |

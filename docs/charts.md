@@ -33,7 +33,7 @@ The legend shows each model's name in bold and in the colour of its lines, with 
 
 ## Auto-advance
 
-The two arrows at the ends of the clock on the map move the cursor, and so the map, forward or back by themselves: a quarter of an hour per quarter second, from the cursor (or from now) to the end of the stored forecasts. A drag on the clock, the arrow again (it shows a pause sign while running) or two taps on the time stop it ([The map](map.md)).
+The two arrows at the ends of the scrubber at the bottom of the map move the cursor, and so the map, forward or back by themselves: a quarter of an hour per quarter second, from the cursor (or from now) to the end of the stored forecasts. Pulling the scrubber's handle, the arrow again (it shows a pause sign while running) or two taps on the time box stop it ([The map](map.md)).
 
 ## Sun and moon
 
