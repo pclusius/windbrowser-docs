@@ -2,7 +2,7 @@
 
 The routing part of WindBrowser answers: *if I sail this route, leaving at this time, when do I arrive, how fast do I go, and what wind do I meet?* The route is yours, from your chart plotter or Navionics, and the app sails it on the computer with the forecasts stored on the phone. By default it follows your line exactly. If you tick **Find the best route between the route's points (weather routing)**, it looks for the fastest line (or the one that best avoids what you want to avoid) between your points, using the forecast, the polar and the tacking angles.
 
-Open it from the map menu: **Routing…**, or with the routing button under the menu button on the map.
+Open it from the map menu: **Routing…**, or with the routing button in the tools (hammer) button at the top right of the map.
 
 ## Import a route
 

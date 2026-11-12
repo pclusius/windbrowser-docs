@@ -18,7 +18,7 @@ Zoom runs from level 5 to 15. Drag to pan, pinch to zoom.
 
 ## The caption
 
-The caption at the bottom of the map reads, for example, `ECMWF-IFS · Sat 7 20:00 UTC+02 · run 4 Nov 02:00 · tap for now`: the model, the forecast time shown and the model run it comes from. In the temperature map it also says "2 m temperature" and, where the barbs come from another model, "wind barbs FMI-HARMONIE". For a tapped point it names the model that covers the point, and adds "also ECMWF-IFS" when a second model reaches it too. When a point is selected, tap the caption (**tap for now**) to put the chart cursor at the actual time of day; the map shows the nearest forecast hour.
+The caption (shown with the (i) button at the bottom right) reads, for example, `ECMWF-IFS · Sat 7 20:00 UTC+02 · run 4 Nov 02:00 `: the model, the forecast time shown and the model run it comes from. In the temperature map it also says "2 m temperature" and, where the barbs come from another model, "wind barbs FMI-HARMONIE". For a tapped point it names the model that covers the point, and adds "also ECMWF-IFS" when a second model reaches it too. Two taps on the clock put the map and the chart cursor at the actual time.
 
 ## Old data fades
 
@@ -28,13 +28,27 @@ A tile whose newest run is more than 24 hours old fades to grey, fully grey at 4
 
 The finest model is drawn on top: ECMWF-IFS below ARPEGE below HARMONIE, so you see the fine model where it exists and the coarser ones around it. To look at a layer that is covered, hide the ones above it by tapping their names in the chart legend ([Charts](charts.md)).
 
-## Routing button
+## Tools button
 
-The button under the menu button (a zigzag route with a dot at each end) opens the same window as **Routing…** in the menu: your routes, saved plans and "Plan a passage" ([Routing](routing.md)).
+The round hammer button at the top right of the map holds three tools. Tap it and the radar, routing and location buttons fan out round it; tap one to use it. Tap the hammer again, or anywhere else on the map, to fold them away. The menu button at the top left stays where it is.
 
-## Location button
+- **Rain radar**: switches the rain radar layer on and off (see below).
+- **Routing** (a zigzag route with a dot at each end): opens the same window as **Routing…** in the menu: your routes, saved plans and "Plan a passage" ([Routing](routing.md)).
+- **Location**: finds your position (one fix; GPS if you allowed precise location), selects that point as if you had tapped it, and centres the map there. The position is not stored or sent anywhere.
 
-The button under the routing button finds your position (one fix; GPS if you allowed precise location), selects that point as if you had tapped it, and centres the map there. The position is not stored or sent anywhere.
+## Rain radar
+
+The radar button is blue while the layer is on and grey while it is off. Switching it on shows the FMI rain radar (Finland and its surroundings) for the time on the clock, and moves the time to now. While the radar is shown it replaces the wind or temperature layer and its colour bar, and the time cannot be moved past now; switch the radar off to get the forecast back. The pictures of the last 6 hours are downloaded when you switch it on (one every 15 minutes), so scrubbing the time needs no network. Colours go from blue to dark red as the rain gets heavier (0.1 mm/h and up to 5 mm/h and more); a greyer tone with a thin line marks where the radars do not reach.
+
+## The clock
+
+The bar at the bottom of the map shows the time of the map and the charts, which are always the same. The time is yellow when it is more than a minute from now.
+
+- The arrow at each end runs the time forward or back by itself (a quarter of an hour every quarter second); the running arrow becomes a pause sign. Press the other arrow to turn the direction round.
+- **Double tap** the time to go to now.
+- **Press and hold** the time, then move right or left, to scrub; the bar leans a little the way you pull and springs back when you let go.
+
+The small (i) button in the bottom right corner shows the caption; it hides again when you tap the map or the charts.
 
 ## Divider
 

@@ -33,7 +33,7 @@ The legend shows each model's name in bold and in the colour of its lines, with 
 
 ## Auto-advance
 
-The clock button with the circular arrow at the right end of the legend moves the cursor, and so the map, forward by itself: a quarter of an hour per quarter second, from the cursor (or from now) to the end of the axis in view. A touch on a chart, the button again, or "now" stops it.
+The two arrows at the ends of the clock on the map move the cursor, and so the map, forward or back by themselves: a quarter of an hour per quarter second, from the cursor (or from now) to the end of the stored forecasts. A drag on the clock, the arrow again (it shows a pause sign while running) or two taps on the time stop it ([The map](map.md)).
 
 ## Sun and moon
 
