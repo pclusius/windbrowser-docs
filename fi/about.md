@@ -7,7 +7,7 @@ WindBrowser säilyttää ennusteajot vertailua varten. Versio näkyy valikossa k
 - **Sovelluksessa, ilman verkkoyhteyttä:** valikko → **Manual** (englanniksi).
 - **Verkossa (ajantasaisin, englanniksi):** <https://pclusius.github.io/windbrowser-docs/>
 - **PDF (englanniksi):** <https://pclusius.github.io/windbrowser-docs/WindBrowser-manual.pdf>, linkki myös kohdassa **About WindBrowser**.
-- **PDF (suomeksi):** <https://pclusius.github.io/windbrowser-docs/WindBrowser-manual-fi.pdf>
+- **PDF (suomeksi):** <https://pclusius.github.io/windbrowser-docs/WindBrowser-manual-fi.pdf>. Se päivitetään vain suurempien muutosten jälkeen, joten englanninkielinen ohje on ajantasaisin.
 
 ## Data ja kiitokset
 

@@ -15,6 +15,7 @@ Valikon ("hampurilaispainike" ($\equiv$), vasemmassa yläkulmassa) ylimpänä on
 5. Suorakulmion ympärillä oleva katkoviivareunus on alue, joka todellisuudessa ladataan. Se on hieman suurempi, jotta suorakulmion reunalla olevia pisteitä voidaan vielä interpoloida.
 6. ARPEGE-alueella valitse valintapainikkeilla, kuinka monta päivää eteenpäin sitä ladataan (1–4, oletus 3; katso luku **ARPEGE ja Météo-Francen avain**). Tarkista paneelista **levytilaarvio** (disk estimate). Varoitus tulee, jos dataraja ylittyisi.
 7. Vahvista. Ensimmäisen ennusteen lataus alkaa ("Downloading the first forecast…"). Kun data on valmis, kartan alla olevassa paneelissa lukee "Tap the map, or an orange station" (napauta karttaa tai oranssia asemaa).
+8. Sovellus kysyy nyt kerran, saako se **toimia ilman akunkäytön rajoituksia** ("Keep the forecasts coming?"). Salli se, jos et halua aukkoja ennustehistoriaan; katso luku **Päivitykset ja vianetsintä**. Voit muuttaa valintaa myöhemmin Androidin asetuksissa: App info → Battery → Unrestricted.
 
 !!! tip
     Purjehduskilpailua tai risteilyetappia varten valitse HARMONIE-alue reitin ympärille ja sen ympärille suurempi ECMWF-IFS-alue. Molemmat voivat olla aktiivisia yhtä aikaa.

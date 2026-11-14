@@ -49,6 +49,18 @@ Tuloksessa on kaksi välilehteä.
 
 Paneeli jättää kartan näkyviin ja käytettäväksi.
 
+## Jäljet: mitä ennuste kertoi purjehtimaltasi jäljeltä
+
+Tallenna jälki navigointisovelluksellasi (esimerkiksi Navionicsilla) ja tuo GPX-tiedosto kohdasta **Routing > Import track (GPX)…**. Tiedosto voi olla suuri (enintään 100 MB; kaksi vuorokautta yhdellä paikannuksella sekunnissa on noin 50 MB). Sovellus lukee sen virtana ja säilyttää yhden pisteen minuutissa: minuutin keskikohtaa lähimmän paikannuksen, tallentimen sille minuutille kirjoittaman nopeuden ja kuljetun matkan, joten jäljen pituus on tarkka. Jokaisella pisteellä on oltava aika. Yli kymmenen minuutin hiljaisuus katkaisee jäljen, eikä sen yli keksitä mitään.
+
+Jälki haetaan heti tallennetuista ennusteista piste pisteeltä: kutakin ajankohtaa kattavan uusimman tallennetun ajon tuuli, puuska ja lämpötila. Tulos tallennetaan jäljen mukana, joten se säilyy sen jälkeenkin, kun ennusteajot ovat vanhentuneet. **Tuo pian matkan jälkeen**: käytettävissä ovat vain ajot, jotka puhelin vielä säilyttää (historia-asetus, 1–14 päivää), ja sitä vanhemmalla jäljellä lukee "Forecast covers 0 %". Jos uudempi ajo myöhemmin kattaa aukot, jäljen yhteenvedon "Update with the latest forecast runs" täyttää ne ja säilyttää sen, mitä siellä jo oli.
+
+Jälki piirretään pelkkänä viivana ilman pisteitä, kun se on valittu Routing-valikossa. **Napauta viivaa**: pieni kortti näyttää pituuden, keskinopeuden (tallennetun), keskituulen ja sen suunnan sekä keskilämpötilan. **Napauta korttia** avataksesi jäljen kartan alla olevassa paneelissa: yhteenveto (tunnusluvut, tuntikohtainen osuustaulukko, jossa TWS, TWA, TWD, SOG, lämpötila, matka loppuun ja ennustemalli) ja kaaviot (tuuli puuskineen, nopeus pohjan suhteen, tuulen suunta, lämpötila). Kosketa kaaviota, niin vene näytetään kartalla kyseisellä hetkellä, ja kartta näyttää sen hetken tuulen. Tunti, jolta ennustetta ei ole, merkitään "–" ja viivat katkeavat siihen.
+
+Sama kortti ja paneeli avautuvat, kun napautat reitityksen (valitun tallennetun suunnitelman) viivaa. Jälki ja reitityksiä voi valita yhtä aikaa ja vertailla (**Compare ticked plans**), esimerkiksi säähän perustuvaa reititystä todella purjehdittuun jälkeen. Jäljen tuuli ja lämpötila ovat **ennusteita jäljen paikassa ja ajassa**, eivät mittauksia; lämpötila on vain siellä, minne ECMWF-IFS- tai ARPEGE-ajo yltää.
+
+**CSV.** Paneelin (ja vertailun) CSV-painike tallentaa jäljen tai suunnitelman Downloads-kansioon: aika (UTC), sijainti, kuljettu matka, nopeus pohjan suhteen, kurssi, tuulen nopeus, tuulen suunta, puuska, tuulikulma, lämpötila, malli ja ajo, nopeudet valikossa valitulla yksiköllä (sarakkeiden nimissä lukee `_kn` tai `_ms`).
+
 ## Tallennus, vertailu, ajopäiväkirja
 
 - **Save** tallentaa suunnitelman puhelimeen lukuineen ja asetuksineen, joilla se tehtiin. Tallennetut suunnitelmat listataan kohdassa **Routing**. Ne voi avata uudelleen senkin jälkeen, kun niiden käyttämät ennusteet ovat vanhentuneet.

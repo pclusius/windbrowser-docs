@@ -35,6 +35,19 @@ Selite näyttää kunkin mallin nimen lihavoituna ja viivojensa värisenä sekä
 
 Kartan alareunan säätimen päissä olevat kaksi nuolta siirtävät kohdistinta ja siten karttaa eteen- tai taaksepäin itsestään: neljännestunnin neljännessekunnissa, kohdistimesta (tai nykyhetkestä) tallennettujen ennusteiden loppuun. Säätimen kahvan vetäminen, nuoli uudestaan (käynnissä se näyttää taukomerkkiä) tai kaksi napautusta aikaruutuun pysäyttää sen ([Kartta](map.md)).
 
+## Aurinko ja kuu
+
+Kaavioiden yläpuolella otsikossa oleva paikka, koordinaatit tai aseman nimi, on alleviivattu: **napauta sitä** nähdäksesi auringon ja kuun kyseisessä paikassa.
+
+![Sun and moon](../docs/img/solunar.png){ width=320 }
+
+- Ikkuna avautuu kaavion kohdistimen päivään tai tähän päivään. Vasen ja oikea nuoli siirtävät yhden päivän kerrallaan, ja **Today** palauttaa tähän päivään.
+- **Vuorokausijana** kulkee keskiyöstä keskiyöhön ja on väritetty sen mukaan, kuinka syvällä horisontin alapuolella aurinko on: yö, tähtitieteellinen, merenkulullinen ja siviilihämärä sekä päivä. Punaiset merkit osoittavat auringonnousun ja -laskun, piste on aurinkokeskipäivä, ja janan alla oleva palkki näyttää, milloin kuu on ylhäällä; kuun nousu ja lasku on merkitty punaisella.
+- **Taulukko** kertoo päivänvalon pituuden (auringonnoususta laskuun) sekä siviili-, merenkulku- ja tähtitieteellisen päivän pituuden: aika, jolloin aurinko on yli 6, 12 tai 18 astetta horisontin alapuolella, on hämärää, joten kunkin lajin pimeä aika on loput vuorokaudesta. Missä aurinko ei ylitä jotakin tasoa, kuten Itämeren kesäyönä, taulukossa lukee "all day" tai "never".
+- **Kuu** piirretään sellaisena kuin se sinä päivänä näyttää (käännettynä eteläisellä pallonpuoliskolla), ja sen vaihe, valaistu osuus, ikä vuorokausina, kuunnousu ja kuunlasku sekä seuraava uusi- ja täysikuu kerrotaan.
+
+Kaikki lasketaan sijainnista ja päivämäärästä, joten se toimii ilman ennustetta tai verkkoyhteyttä. Aurinko on tarkka noin 2 minuutin ja kuu noin 5 minuutin tarkkuudella. Ajat ovat puhelimen kellon ja UTC-poikkeaman mukaiset, ja "päivä" on puhelimen kalenteripäivä.
+
 ## Yksiköt
 
 Nopeus näytetään solmuina tai m/s (katso luku **Asetukset**). Ajat näytetään puhelimen UTC-poikkeamalla, esimerkiksi `UTC+02`.
