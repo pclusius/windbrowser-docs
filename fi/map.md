@@ -35,7 +35,7 @@ Kartan oikeassa yläkulmassa oleva pyöreä vasaranappi sisältää kolme työka
 
 - **Sadetutka** (rain radar): kytkee tutkakerroksen päälle ja pois (katso alla).
 - **Reititys** (siksak-reitti, jonka kummassakin päässä on piste): avaa saman ikkunan kuin valikon **Routing**: reittisi, tallennetut suunnitelmat ja "Plan a passage" ([Reititys](routing.md)).
-- **Paikannus**: hakee sijaintisi (yksi paikannus; GPS, jos sallit tarkan sijainnin), valitsee pisteen kuin olisit napauttanut sitä ja keskittää kartan siihen. Sijaintia ei tallenneta eikä lähetetä minnekään.
+- **Paikannus**: hakee sijaintisi (yksi paikannus; GPS, jos sallit tarkan sijainnin), keskittää kartan siihen ja asettaa siihen punaisen **sijaintineulan**, ja valitsee lisäksi pisteen kuin olisit napauttanut sitä (kaaviot näyttävät sen ennusteen). Neula pysyy kartalla, kun napautat muualle. Napauta neulaa valitaksesi sen pisteen uudelleen ja avataksesi tunnisteen, jossa on sijainti ja kartan ajan ennuste (esimerkiksi `33.8 kn, gust 41.4 kn, 299° WNW, 09:55`; se seuraa aikaa, kun selaat); neulan viereen tulee pyöreä sulkemispainike, jota napauttamalla neula poistuu. Neulan uusi napautus tai mikä tahansa muu piste tai asema kartalla sulkee tunnisteen mutta jättää neulan. **Paikannus**-painikkeen uusi painallus siirtää neulan uuteen sijaintiin. Sijaintia ei tallenneta eikä lähetetä minnekään, ja neula katoaa, kun sovellus käynnistetään uudelleen.
 
 ## Sadetutka
 
@@ -48,7 +48,8 @@ Kartan ja kaavioiden aika, joka on aina sama, näkyy kartan yläreunassa himmeä
 Kartan alareunan säätimessä on nuolipainike lähellä kumpaakin näytön reunaa, himmeä viiva niiden välissä ja kahva keskellä. Aika on ylhäällä, jotta sormi ei peitä sitä säädettäessä.
 
 - Nuoli kummassakin päässä käyttää aikaa eteen- tai taaksepäin itsestään (neljännestunti neljännessekunnissa); käynnissä oleva nuoli muuttuu taukomerkiksi. Toisen nuolen painaminen kääntää suunnan.
-- **Vedä kahvaa** oikealle tai vasemmalle muuttaaksesi aikaa: aika kulkee eteen- tai taaksepäin niin kauan kuin pidät kahvaa poissa keskeltä, sitä nopeammin mitä pidemmälle vedät (enintään 60 dp; nopeus vaihtelee 20 ennusteminuutista sekunnissa nelinkertaiseksi). Kahva palaa keskelle, kun päästät irti. Painikkeet ja viiva pysyvät paikallaan.
+- **Vedä kahvaa** oikealle tai vasemmalle muuttaaksesi aikaa: aika kulkee eteen- tai taaksepäin niin kauan kuin pidät kahvaa poissa keskeltä, sitä nopeammin mitä pidemmälle vedät (enintään 60 dp; nopeus vaihtelee 20 ennusteminuutista sekunnissa nelinkertaiseksi). Kahva palaa keskelle, kun päästät irti. Painikkeet ja viiva pysyvät paikallaan. Vaaleassa teemassa kahvalla on ohut harmaa reunaviiva, ja pieni teksti "tap twice for now" sen yläpuolella muistuttaa kaksoisnapautuksesta.
+- **Vedä kahva aivan viivan päähän** (kumpaan tahansa), niin kahva hyppää siihen päähän: aika etenee silloin 6 tunnin hypyin, yksi sekunnissa, puhelimen ajan merkkeihin 00:00, 06:00, 12:00 ja 18:00 (kello 16:34 eteenpäin mentäessä askeleet ovat 18:00, 00:00, 06:00 ja niin edelleen; kello 20:32 ensimmäinen on 00:00). Siirrä sormi takaisin kohti keskustaa, niin kahva palaa normaalialueelleen ja normaaliin nopeuteen; päästä irti, niin se palaa keskelle ja aika pysähtyy. Tämä toimii ennusteessa; tutkan säätimessä ei ole jousta.
 - **Kaksoisnapautus** kahvaan siirtää ajan nykyhetkeen.
 
 ## Jakaja

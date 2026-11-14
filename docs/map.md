@@ -34,7 +34,7 @@ The round hammer button at the top right of the map holds three tools. Tap it an
 
 - **Rain radar**: switches the rain radar layer on and off (see below).
 - **Routing** (a zigzag route with a dot at each end): opens the same window as **Routing** in the menu: your routes, saved plans and "Plan a passage" ([Routing](routing.md)).
-- **Location**: finds your position (one fix; GPS if you allowed precise location), selects that point as if you had tapped it, and centres the map there. The position is not stored or sent anywhere.
+- **Location**: finds your position (one fix; GPS if you allowed precise location), centres the map there and puts a red **location pin** on it, and also selects that point as if you had tapped it (the charts show its forecast). The pin stays on the map when you tap elsewhere. Tap the pin to select its point again and open a label with the position and the forecast for the time on the map (for example `33.8 kn, gust 41.4 kn, 299° WNW, 09:55`; it follows the time as you scrub); a round close button appears beside the pin, and tapping it removes the pin. Tapping the pin again, or any other point or station on the map, closes the label and leaves the pin. Tapping **Location** again moves the pin to the new position. The position is not stored or sent anywhere, and the pin is gone when the app is restarted.
 
 ## Rain radar
 
@@ -47,7 +47,8 @@ The time of the map and the charts, which are always the same, is shown in a fai
 The scrubber at the bottom of the map has an arrow button near each edge of the screen, a faint line between them and a handle in the middle. The box is at the top so that your finger does not hide the time while you scrub.
 
 - The arrow at each end runs the time forward or back by itself (a quarter of an hour every quarter second); the running arrow becomes a pause sign. Press the other arrow to turn the direction round.
-- **Pull the handle** to the right or left to change the time: it runs forward or back for as long as you hold the handle away from the middle, and faster the further you pull (up to 60 dp; the speed ranges from 20 minutes of forecast per second to four times that). The handle springs back to the middle when you let go. The buttons and the line stay where they are.
+- **Pull the handle** to the right or left to change the time: it runs forward or back for as long as you hold the handle away from the middle, and faster the further you pull (up to 60 dp; the speed ranges from 20 minutes of forecast per second to four times that). The handle springs back to the middle when you let go. The buttons and the line stay where they are. In light mode the handle has a thin grey outline, and a tiny "tap twice for now" above it reminds you of the double tap.
+- **Pull the handle all the way to either end of the line** and it jumps to that end: the time then steps in 6-hour jumps, one a second, onto the marks 00:00, 06:00, 12:00 and 18:00 of the phone's time (from 16:34 going forward the steps are 18:00, 00:00, 06:00 and so on; from 20:32 the first is 00:00). Move the finger back toward the middle and the handle returns to its normal range and the normal speed; let go and it springs back to the middle and the time stops. This works with the forecast; the radar's scrubber has no spring.
 - **Double tap** the handle to go to now.
 
 ## Divider

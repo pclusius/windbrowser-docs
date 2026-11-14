@@ -49,6 +49,18 @@ The result has two tabs.
 
 The panel leaves the map visible and usable.
 
+## Tracks: what the forecast said along a track you sailed
+
+Record the track with your navigation app (Navionics, for example) and import the GPX file with **Routing > Import track (GPX)…**. The file may be large (up to 100 MB; two days at one fix a second is about 50 MB). The app reads it as a stream and keeps one point a minute: the fix nearest the middle of the minute, the speed the recorder wrote for that minute and the distance covered, so the length of the track is exact. Every point must have a time. A silence of over ten minutes splits the track and nothing is invented across it.
+
+The track is looked up in the stored forecasts at once, point by point: the wind, gust and temperature of the newest stored run that covers each time. The result is saved with the track, so it stays after the forecast runs have expired. **Import soon after the trip**: only the runs the phone still holds (the history setting, 1 to 14 days) can be used, and a track older than that shows "Forecast covers 0 %". If a newer run later covers the gaps, "Update with the latest forecast runs" in the track's summary fills them and keeps what was there.
+
+A track is drawn as a plain line, without points, when it is ticked in the Routing menu. **Tap the line**: a small card shows the length, the average speed (as recorded), the average wind and its direction, and the mean temperature. **Tap the card** to open the track in the panel below the map: the summary (figures, leg table by hour with TWS, TWA, TWD, SOG, temperature, distance to the end and forecast model) and the graphs (wind with gust, speed over ground, wind direction, temperature). Touch a graph and the boat is shown on the map at that time, with the map's wind of the time. A hour with no forecast is marked "–" and the lines are broken there.
+
+The same card and panel open when you tap the line of a routing (a ticked saved plan). A track and routings can be ticked together and compared (**Compare ticked plans**), for instance a weather routing against the track actually sailed. The wind and temperature of a track are **forecasts at the place and time of the track**, not measurements; temperature exists only where an ECMWF-IFS or ARPEGE run covers the place.
+
+**CSV.** The CSV button in the panel (and in the comparison) saves the track or plan to Downloads: time (UTC), position, distance along, speed over ground, course, wind speed, wind direction, gust, wind angle, temperature, model and run, with the speeds in the unit chosen in the menu (the column names say `_kn` or `_ms`).
+
 ## Save, compare, roadbook
 
 - **Save** keeps the plan on the phone with its figures and the settings it was made with. Saved plans are listed in **Routing**. They can be opened again after the forecasts they used have expired.
